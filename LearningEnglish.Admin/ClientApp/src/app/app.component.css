@@ -1,0 +1,8 @@
+.custom-pagination .ngx-pagination .current {
+    background: #3c8dbc;
+}
+
+.custom-pagination .ngx-pagination {
+    margin-right: 30px;
+    text-align: right;
+}
