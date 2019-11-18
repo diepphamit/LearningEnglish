@@ -25,15 +25,17 @@ namespace LearningEnglish.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<int>("LessonId");
+                    b.Property<int>("CourseId");
 
                     b.Property<float>("Point");
 
                     b.Property<DateTime>("TestDate");
 
+                    b.Property<int>("UserId");
+
                     b.HasKey("Id");
 
-                    b.HasIndex("LessonId");
+                    b.HasIndex("CourseId");
 
                     b.ToTable("Achievements");
                 });
@@ -147,11 +149,13 @@ namespace LearningEnglish.DataAccess.Migrations
 
                     b.Property<string>("Content");
 
-                    b.Property<int>("LessonId");
+                    b.Property<int>("CourseId");
+
+                    b.Property<string>("Name");
 
                     b.HasKey("Id");
 
-                    b.HasIndex("LessonId");
+                    b.HasIndex("CourseId");
 
                     b.ToTable("Questions");
                 });
@@ -366,9 +370,9 @@ namespace LearningEnglish.DataAccess.Migrations
 
             modelBuilder.Entity("LearningEnglish.DataAccess.Entities.Achievement", b =>
                 {
-                    b.HasOne("LearningEnglish.DataAccess.Entities.Lesson", "Lesson")
-                        .WithMany()
-                        .HasForeignKey("LessonId")
+                    b.HasOne("LearningEnglish.DataAccess.Entities.Course", "Course")
+                        .WithMany("Achievements")
+                        .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
@@ -406,9 +410,9 @@ namespace LearningEnglish.DataAccess.Migrations
 
             modelBuilder.Entity("LearningEnglish.DataAccess.Entities.Question", b =>
                 {
-                    b.HasOne("LearningEnglish.DataAccess.Entities.Lesson", "Lesson")
+                    b.HasOne("LearningEnglish.DataAccess.Entities.Course", "Course")
                         .WithMany("Questions")
-                        .HasForeignKey("LessonId")
+                        .HasForeignKey("CourseId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 

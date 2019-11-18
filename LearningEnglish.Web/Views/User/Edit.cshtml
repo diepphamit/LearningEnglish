@@ -1,0 +1,93 @@
+﻿@model UserForUpdateViewModel
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string gender = "";
+    string xGender;
+    if (Model.Gender == true)
+    {
+        gender = "Male";
+        xGender = "Female";
+    }
+    else
+    {
+        gender = "Female";
+        xGender = "Male";
+    }
+}
+<br />
+<br />
+<br />
+<br />
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Cập nhật</h3>
+    </div>
+
+    <form action="/user/edit/@Model.Id" method="post">
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tên đầy đủ</label>
+                        <input type="text" class="form-control" asp-for="@Model.FullName" placeholder="Tên đầy đủ">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="text" class="form-control" placeholder="Phone Number" asp-for="@Model.PhoneNumber">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input type="text" class="form-control" placeholder="Địa chỉ" asp-for="@Model.Address">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Giới Tính</label>
+                        <select class="form-control" formControlName="gender" asp-for="@Model.Gender">
+                            <option value=@Model.Gender>@gender</option>
+                            <option value=@(!Model.Gender)>@xGender</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Ngày sinh</label>
+                        <input type="text" class="form-control" asp-for="@Model.DateOfBirth">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <input type="hidden" asp-for="@Model.Id" name="id" />
+        <center>
+            <div class="box-footer">
+                <button class="btn btn-default">Hủy</button>
+                <button type="submit" class="btn btn-success ">Lưu</button>
+            </div>
+        </center>
+        
+    </form>
+
+</div>
+
+@section scripts{
+<script>
+    user = window.localStorage.getItem("user");
+    if (user == null) {
+        window.location.href='/home';
+    }
+    else {
+        if (JSON.parse(user).Id != '@Model.Id') {
+            window.location.href = '/home';
+        }
+    } 
+</script>
+    
+}
+

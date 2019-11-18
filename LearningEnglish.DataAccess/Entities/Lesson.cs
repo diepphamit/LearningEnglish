@@ -24,8 +24,7 @@ namespace LearningEnglish.DataAccess.Entities
 
         public virtual ICollection<Pronunciation> Pronunciations { get; set; }
 
-        public virtual ICollection<Question> Questions { get; set; }
-
         public virtual ICollection<Vocabulary> Vocabularies { get; set; }
+        
     }
 }

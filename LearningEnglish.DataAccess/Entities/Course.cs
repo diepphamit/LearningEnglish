@@ -16,5 +16,7 @@ namespace LearningEnglish.DataAccess.Entities
         public virtual ICollection<UserCourse> UserCourses { get; set; }
 
         public virtual ICollection<Lesson> Lessons { get; set; }
+        public virtual ICollection<Question> Questions { get; set; }
+        public virtual ICollection<Achievement> Achievements { get; set; }
     }
 }

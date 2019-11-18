@@ -12,6 +12,15 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { AuthGuard } from './services/auth-guard.service';
 import { AuthService } from './services/auth.service';
 import { UserService } from './services/user.service';
+import { CourseService } from './services/course.service';
+import { LessonService } from './services/lesson.service';
+import { VocabularyService } from './services/vocabulary.service';
+import { PronunciationService } from './services/pronunciation.service';
+import { QuestionService } from './services/question.service';
+import { AnswerService } from './services/answer.service';
+import { CommentService } from './services/comment.service';
+import { AchievementService } from './services/achievement.service';
+import { UserCourseService } from './services/usercourse.service';
 
 @NgModule({
     declarations: [
@@ -46,7 +55,16 @@ import { UserService } from './services/user.service';
     providers: [
         AuthGuard,
         AuthService,
-        UserService
+        UserService,
+        CourseService,
+        LessonService,
+        VocabularyService,
+        PronunciationService,
+        QuestionService,
+        AnswerService,
+        CommentService,
+        AchievementService,
+        UserCourseService
     ],
     bootstrap: [AppComponent]
 })

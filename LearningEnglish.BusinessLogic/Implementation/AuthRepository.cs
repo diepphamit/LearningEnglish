@@ -6,6 +6,8 @@ using System.Text;
 using System.Threading.Tasks;
 using LearningEnglish.BusinessLogic.Dtos.User;
 using LearningEnglish.BusinessLogic.Interfaces;
+using LearningEnglish.BusinessLogic.ViewModels.User;
+using LearningEnglish.DataAccess.Constants;
 using LearningEnglish.DataAccess.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -83,8 +85,35 @@ namespace LearningEnglish.BusinessLogic.Implementation
                 return false;
             }
 
+            var roles = await _userManager.GetRolesAsync(user);
+
+            if (roles.Count == 1 && roles.Contains(Constants.CustomerRole))
+            {
+                return false;
+            }
+
             var result = await _signInManager
                 .CheckPasswordSignInAsync(user, userForLoginDto.Password, false);
+
+            if (result.Succeeded)
+            {
+                return true;
+            }
+
+            return false;
+        }
+
+        public async Task<bool> CheckLoginViewModel(UserForLoginViewModel userForLoginViewModel)
+        {
+            var user = await _userManager.FindByNameAsync(userForLoginViewModel.Username);
+
+            if (user == null)
+            {
+                return false;
+            }
+
+            var result = await _signInManager
+                .CheckPasswordSignInAsync(user, userForLoginViewModel.Password, false);
 
             if (result.Succeeded)
             {

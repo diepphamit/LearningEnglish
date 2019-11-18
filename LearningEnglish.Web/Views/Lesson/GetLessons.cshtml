@@ -1,0 +1,26 @@
+﻿@model List<LessonForListViewModel>
+@{
+    //ViewData["Title"] = "GetLessons";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@foreach (var lesson in Model)
+{
+    <div class="col-12 col-lg-6">
+        <div class="single-top-popular-course d-flex align-items-center flex-wrap mb-30 wow fadeInUp" data-wow-delay="400ms">
+            <div class="popular-course-content">
+                <h5>@lesson.Name</h5>
+                <span>By Simon Smith   |  March 18, 2018</span>
+                <div class="course-ratings">
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star" aria-hidden="true"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                </div>
+                <p class="b">@lesson.Type.</p>
+                <a href="#" class="btn academy-btn btn-sm">See More</a>
+            </div>
+            @*<div class="popular-course-thumb bg-img" style="background-image: url(@lesson.Tittle);"></div>*@
+        </div>
+    </div>
+}

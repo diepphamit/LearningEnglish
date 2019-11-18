@@ -15,6 +15,12 @@ export class AddUserComponent implements OnInit {
 
     addUserForm: FormGroup;
     user: User;
+    rol: string;
+    roles1: any[] = [
+        { key: 1, value: ['Admin'] },
+        { key: 2, value: ['Teacher'] },
+        { key: 3, value: ['Customer'] }
+    ]
 
     constructor(
         private fb: FormBuilder,
@@ -26,7 +32,8 @@ export class AddUserComponent implements OnInit {
             userName: ['', Validators.required],
             fullName: ['', Validators.required],
             email: ['', Validators.required],
-            password: ['', Validators.required]
+            password: ['', Validators.required],
+            roles: ['', Validators.required]
         });
     }
 
@@ -35,8 +42,7 @@ export class AddUserComponent implements OnInit {
 
     addUser() {
         this.user = Object.assign({}, this.addUserForm.value);
-        this.user.roles = ['Admin'];
-
+        this.user.roles = [this.rol];
         this.userService.createUser(this.user).subscribe(
             () => {
                 this.router.navigate(['/users']).then(() => {
@@ -56,4 +62,8 @@ export class AddUserComponent implements OnInit {
     }
 
     get f() { return this.addUserForm.controls; }
+    
+    roleFilter(value:string){
+        this.rol = value;
+    }
 }

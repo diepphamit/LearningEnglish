@@ -1,0 +1,200 @@
+2019-11-08T17:13:43.3241575+07:00  [INF] Starting @angular/cli on port 61848... (93675ae9)
+2019-11-08T17:13:43.8836412+07:00 0HLR46HASO1S6:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:62998/  0 (ca22a1cb)
+2019-11-08T17:13:43.8836412+07:00 0HLR46HASO1S5:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/   (ca22a1cb)
+2019-11-08T17:13:43.9385081+07:00 0HLR46HASO1S6:00000001 [INF] Request finished in 59.2494ms 200  (791a596a)
+2019-11-08T17:14:14.0724943+07:00 0HLR46HASO1S6:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/login   (ca22a1cb)
+2019-11-08T17:14:16.4025327+07:00  [INF] > client-app@0.0.0 start D:\TTCN_Web\LearningEnglish\LearningEnglish.Admin\ClientApp
+> ng serve "--port" "61848"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:61848/webpack-dev-server/
+ (b931d0d6)
+2019-11-08T17:14:29.1912023+07:00  [INF] i ´¢ówds´¢ú: webpack output is served from /
+i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+ (474c3f6b)
+2019-11-08T17:14:29.1947645+07:00  [INF] chunk {default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d} default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js, default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js.map (default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d) 271 kB  [rendered]
+chunk {default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3} default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js, default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js.map (default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3) 32.9 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 88.8 kB [initial] [rendered]
+chunk {pages-achievements-achievements-module} pages-achievements-achievements-module.js, pages-achievements-achievements-module.js.map (pages-achievements-achievements-module) 13.2 kB  [rendered]
+chunk {pages-answers-answers-module} pages-answers-answers-module.js, pages-answers-answers-module.js.map (pages-answers-answers-module) 31.7 kB  [rendered]
+chunk {pages-comments-comments-module} pages-comments-comments-module.js, pages-comments-comments-module.js.map (pages-comments-comments-module) 12.6 kB  [rendered]
+chunk {pages-courses-courses-module} pages-courses-courses-module.js, pages-courses-courses-module.js.map (pages-courses-courses-module) 27.8 kB  [rendered]
+chunk {pages-home-home-module} pages-home-home-module.js, pages-home-home-module.js.map (pages-home-home-module) 5.75 kB  [rendered]
+chunk {pages-lessons-lessons-module} pages-lessons-lessons-module.js, pages-lessons-lessons-module.js.map (pages-lessons-lessons-module) 33.4 kB  [rendered]
+chunk {pages-login-login-module} pages-login-login-module.js, pages-login-login-module.js.map (pages-login-login-module) 9.4 kB  [rendered]
+ (22ea3cc8)
+2019-11-08T17:14:29.4782173+07:00  [INF] chunk {pages-pronunciations-pronunciations-module} pages-pronunciations-pronunciations-module.js, pages-pronunciations-pronunciations-module.js.map (pages-pronunciations-pronunciations-module) 32.6 kB  [rendered]
+chunk {pages-questions-questions-module} pages-questions-questions-module.js, pages-questions-questions-module.js.map (pages-questions-questions-module) 30.5 kB  [rendered]
+chunk {pages-usercourses-usercourses-module} pages-usercourses-usercourses-module.js, pages-usercourses-usercourses-module.js.map (pages-usercourses-usercourses-module) 14 kB  [rendered]
+chunk {pages-users-management-users-management-module} pages-users-management-users-management-module.js, pages-users-management-users-management-module.js.map (pages-users-management-users-management-module) 529 kB  [rendered]
+chunk {pages-vocabularies-vocabularies-module} pages-vocabularies-vocabularies-module.js, pages-vocabularies-vocabularies-module.js.map (pages-vocabularies-vocabularies-module) 31.9 kB  [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 290 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 10.2 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 384 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.63 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.71 MB [initial] [rendered]
+Date: 2019-11-08T10:14:29.183Z - Hash: 8cdcc98e722c82d82e49 - Time: 22448ms
+** Angular Live Development Server is listening on localhost:61848, open your browser on http://localhost:61848/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+ (f843c071)
+2019-11-08T17:14:33.2240363+07:00 0HLR46HASO1S6:00000002 [INF] Request finished in 19115.3869ms 200 text/html; charset=UTF-8 (791a596a)
+2019-11-08T17:14:33.2364938+07:00 0HLR46HASO1S5:00000001 [INF] Request finished in 49312.9633ms 200 text/html; charset=UTF-8 (791a596a)
+2019-11-08T17:14:33.2395609+07:00 0HLR46HASO1S7:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/styles.js   (ca22a1cb)
+2019-11-08T17:14:33.2411153+07:00 0HLR46HASO1S6:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/runtime.js   (ca22a1cb)
+2019-11-08T17:14:33.2451339+07:00 0HLR46HASO1S8:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/main.js   (ca22a1cb)
+2019-11-08T17:14:33.2476314+07:00 0HLR46HASO1S5:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/polyfills.js   (ca22a1cb)
+2019-11-08T17:14:33.2601067+07:00 0HLR46HASO1S6:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:33.2601067+07:00 0HLR46HASO1S7:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:33.2630880+07:00 0HLR46HASO1S9:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/vendor.js   (ca22a1cb)
+2019-11-08T17:14:33.2661729+07:00 0HLR46HASO1S7:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:33.2738420+07:00 0HLR46HASO1S9:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:33.2767205+07:00 0HLR46HASO1S6:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:33.2792912+07:00 0HLR46HASO1S9:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:33.2816363+07:00 0HLR46HASO1S8:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:33.2877508+07:00 0HLR46HASO1S5:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:33.2937026+07:00 0HLR46HASO1S8:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:33.2956634+07:00 0HLR46HASO1S5:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:33.3100712+07:00 0HLR46HASO1SA:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/scripts.js   (ca22a1cb)
+2019-11-08T17:14:33.3169631+07:00 0HLR46HASO1S6:00000003 [INF] Request finished in 83.9537ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:33.3892270+07:00 0HLR46HASO1S7:00000001 [INF] Request finished in 157.0776ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:34.3585610+07:00 0HLR46HASO1S8:00000001 [INF] Request finished in 1088.0405ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:34.3970318+07:00 0HLR46HASO1S5:00000002 [INF] Request finished in 1151.5704ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:34.4202465+07:00 0HLR46HASO1SA:00000001 [INF] Request finished in 1089.8829ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:34.5957565+07:00 0HLR46HASO1S9:00000001 [INF] Request finished in 1332.127ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:35.5364317+07:00 0HLR46HASO1S7:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-login-login-module.js   (ca22a1cb)
+2019-11-08T17:14:35.5384950+07:00 0HLR46HASO1S6:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js   (ca22a1cb)
+2019-11-08T17:14:35.5450961+07:00 0HLR46HASO1S7:00000002 [INF] Request finished in 9.7024ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:35.5536326+07:00 0HLR46HASO1S8:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/sockjs-node/info?t=1573208075537   (ca22a1cb)
+2019-11-08T17:14:35.5824445+07:00 0HLR46HASO1S6:00000004 [INF] Request finished in 27.7963ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:35.5979815+07:00 0HLR46HASO1S8:00000002 [INF] Request finished in 42.3318ms 200 application/json; charset=UTF-8 (791a596a)
+2019-11-08T17:14:35.6932152+07:00 0HLR46HASO1S5:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/sockjs-node/145/x2rkb4va/websocket   (ca22a1cb)
+2019-11-08T17:14:35.6977335+07:00 0HLR46HASO1S5:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:35.7011000+07:00 0HLR46HASO1S5:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:35.7418158+07:00 0HLR46HASO1SA:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2019-11-08T17:14:35.7571490+07:00 0HLR46HASO1SA:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:35.7608538+07:00 0HLR46HASO1SA:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:35.7768312+07:00 0HLR46HASO1SA:00000002 [INF] Request finished in 26.4554ms 200 font/woff2; charset=UTF-8 (791a596a)
+2019-11-08T17:14:36.7009265+07:00 0HLR46HASO1S9:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44327/sockjs-node/145/yipcvmaj/xhr_streaming?t=1573208076693  0 (ca22a1cb)
+2019-11-08T17:14:36.7040922+07:00 0HLR46HASO1S9:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:36.7072816+07:00 0HLR46HASO1S9:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:36.9321478+07:00 0HLR46HASO1S5:00000003 [INF] Request finished in 1238.7595ms 101  (791a596a)
+2019-11-08T17:14:48.8188920+07:00 0HLR46HASO1S7:00000003 [INF] Request starting HTTP/1.1 POST http://localhost:44327/api/auth/login application/json 41 (ca22a1cb)
+2019-11-08T17:14:48.8223689+07:00 0HLR46HASO1S7:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:48.8243507+07:00 0HLR46HASO1S7:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:48.9634050+07:00 0HLR46HASO1S7:00000003 [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2019-11-08T17:14:48.9664667+07:00 0HLR46HASO1S7:00000003 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'." (48071232)
+2019-11-08T17:14:48.9697776+07:00 0HLR46HASO1S7:00000003 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (500cc934)
+2019-11-08T17:14:49.0065483+07:00 0HLR46HASO1S7:00000003 [INF] Route matched with "{action = \"Login\", controller = \"Auth\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LearningEnglish.BusinessLogic.Dtos.User.UserForLoginDto)" on controller "LearningEnglish.Admin.Controllers.AuthController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-08T17:14:49.4650499+07:00 0HLR46HASO1S7:00000003 [INF] Executing action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-08T17:14:49.5155023+07:00 0HLR46HASO1S7:00000003 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-08T17:14:49.6004667+07:00 0HLR46HASO1S7:00000003 [INF] Executed DbCommand ("17"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Address], [u].[ConcurrencyStamp], [u].[DateOfBirth], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[Gender], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-11-08T17:14:49.7400496+07:00 0HLR46HASO1S7:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-08T17:14:49.8649512+07:00 0HLR46HASO1S7:00000003 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[AccessFailedCount], [x].[Address], [x].[ConcurrencyStamp], [x].[DateOfBirth], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[Gender], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[NormalizedUserName] = @__ToLower_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-11-08T17:14:49.9075938+07:00 0HLR46HASO1S7:00000003 [INF] Executed DbCommand ("16"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserRoles].[UserId], [x.UserRoles].[RoleId]
+FROM [AspNetUserRoles] AS [x.UserRoles]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [AspNetUsers] AS [x0]
+    WHERE [x0].[NormalizedUserName] = @__ToLower_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.UserRoles].[UserId] = [t].[Id]
+ORDER BY [t].[Id]" (0723d8ff)
+2019-11-08T17:14:49.9897421+07:00 0HLR46HASO1S7:00000003 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-08T17:14:50.0348475+07:00 0HLR46HASO1S7:00000003 [INF] Executed action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 560.6378ms. (50a9e262)
+2019-11-08T17:14:50.0587206+07:00 0HLR46HASO1S7:00000003 [INF] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LearningEnglish.BusinessLogic.Dtos.User.UserForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-08T17:14:50.0853882+07:00 0HLR46HASO1S7:00000003 [INF] Executed action "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" in 1070.6637ms (afa2e885)
+2019-11-08T17:14:50.0877092+07:00 0HLR46HASO1S7:00000003 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (99874f2b)
+2019-11-08T17:14:50.0936746+07:00 0HLR46HASO1S7:00000003 [INF] Request finished in 1271.2842ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-08T17:14:50.1104641+07:00 0HLR46HASO1S6:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-home-home-module.js   (ca22a1cb)
+2019-11-08T17:14:51.1366316+07:00 0HLR46HASO1S6:00000005 [INF] Request finished in 1012.1764ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:51.1943949+07:00 0HLR46HASO1S8:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/assets/img/user2-160x160.jpg   (ca22a1cb)
+2019-11-08T17:14:51.2006678+07:00 0HLR46HASO1S8:00000003 [INF] Request finished in 4.666ms 200 image/jpeg; charset=UTF-8 (791a596a)
+2019-11-08T17:14:51.2283959+07:00 0HLR46HASO1SA:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2019-11-08T17:14:51.2327182+07:00 0HLR46HASO1SA:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-08T17:14:51.2365004+07:00 0HLR46HASO1SA:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-08T17:14:51.2469488+07:00 0HLR46HASO1SA:00000003 [INF] Request finished in 16.8476ms 200 font/woff2; charset=UTF-8 (791a596a)
+2019-11-08T17:14:58.1457040+07:00 0HLR46HASO1S6:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44327/default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js   (ca22a1cb)
+2019-11-08T17:14:58.1471117+07:00 0HLR46HASO1S7:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-users-management-users-management-module.js   (ca22a1cb)
+2019-11-08T17:14:59.1935138+07:00 0HLR46HASO1S6:00000006 [INF] Request finished in 1036.033ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:59.2155803+07:00 0HLR46HASO1S7:00000004 [INF] Request finished in 1059.4143ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-08T17:14:59.6040551+07:00 0HLR46HASO1S8:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Users?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-08T17:14:59.6329110+07:00 0HLR46HASO1S8:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-08T17:14:59.6460787+07:00 0HLR46HASO1S8:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)"' (500cc934)
+2019-11-08T17:14:59.6544911+07:00 0HLR46HASO1S8:00000004 [INF] Route matched with "{action = \"GetAllUsers\", controller = \"Users\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.UsersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-08T17:14:59.6813834+07:00 0HLR46HASO1S8:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-08T17:14:59.6996576+07:00 0HLR46HASO1S8:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-08T17:14:59.7209686+07:00 0HLR46HASO1S8:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [user].[Id], [user].[Email], [user].[FullName], [user].[PhoneNumber], [user].[UserName], [role].[Name] AS [Role]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [AspNetUserRoles] AS [userrole] ON [user].[Id] = [userrole].[UserId]
+INNER JOIN [AspNetRoles] AS [role] ON [userrole].[RoleId] = [role].[Id]" (0723d8ff)
+2019-11-08T17:14:59.7283421+07:00 0HLR46HASO1S8:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [user].[Id], [user].[Email], [user].[FullName], [user].[PhoneNumber], [user].[UserName], [role].[Name] AS [Role]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [AspNetUserRoles] AS [userrole] ON [user].[Id] = [userrole].[UserId]
+INNER JOIN [AspNetRoles] AS [role] ON [userrole].[RoleId] = [role].[Id]" (0723d8ff)
+2019-11-08T17:14:59.7326110+07:00 0HLR46HASO1S8:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 48.9997ms. (50a9e262)
+2019-11-08T17:14:59.7353111+07:00 0HLR46HASO1S8:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.User.UserForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-08T17:14:59.7436764+07:00 0HLR46HASO1S8:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)" in 86.2344ms (afa2e885)
+2019-11-08T17:14:59.7462029+07:00 0HLR46HASO1S8:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)"' (99874f2b)
+2019-11-08T17:14:59.7502514+07:00 0HLR46HASO1S8:00000004 [INF] Request finished in 146.7206ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-08T17:15:05.4438758+07:00 0HLR46HASO1SA:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Users/15   (ca22a1cb)
+2019-11-08T17:15:05.4465260+07:00 0HLR46HASO1SA:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-08T17:15:05.4495306+07:00 0HLR46HASO1SA:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetUserById (LearningEnglish.Admin)"' (500cc934)
+2019-11-08T17:15:05.4583201+07:00 0HLR46HASO1SA:00000004 [INF] Route matched with "{action = \"GetUserById\", controller = \"Users\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUserById(Int32)" on controller "LearningEnglish.Admin.Controllers.UsersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-08T17:15:05.4619726+07:00 0HLR46HASO1SA:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.UsersController.GetUserById (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-08T17:15:05.5104123+07:00 0HLR46HASO1SA:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-08T17:15:05.5305409+07:00 0HLR46HASO1SA:00000004 [INF] Executed DbCommand ("6"ms) [Parameters=["@__id_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [user].[Id], [user].[Email], [user].[FullName], [user].[PhoneNumber], [user].[UserName], [role].[Name] AS [Role]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [AspNetUserRoles] AS [userrole] ON [user].[Id] = [userrole].[UserId]
+INNER JOIN [AspNetRoles] AS [role] ON [userrole].[RoleId] = [role].[Id]
+WHERE [user].[Id] = @__id_0" (0723d8ff)
+2019-11-08T17:15:05.5334641+07:00 0HLR46HASO1SA:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.UsersController.GetUserById (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 69.4825ms. (50a9e262)
+2019-11-08T17:15:05.5365197+07:00 0HLR46HASO1SA:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Dtos.User.UserForListDto"'. (8a1b66c8)
+2019-11-08T17:15:05.5394517+07:00 0HLR46HASO1SA:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.UsersController.GetUserById (LearningEnglish.Admin)" in 78.4314ms (afa2e885)
+2019-11-08T17:15:05.5422765+07:00 0HLR46HASO1SA:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetUserById (LearningEnglish.Admin)"' (99874f2b)
+2019-11-08T17:15:05.5463262+07:00 0HLR46HASO1SA:00000004 [INF] Request finished in 101.1436ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-08T17:15:09.5370925+07:00 0HLR46HASO1S6:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Users?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-08T17:15:09.5416969+07:00 0HLR46HASO1S6:00000007 [INF] Successfully validated the token. (60169667)
+2019-11-08T17:15:09.5452455+07:00 0HLR46HASO1S6:00000007 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)"' (500cc934)
+2019-11-08T17:15:09.5492076+07:00 0HLR46HASO1S6:00000007 [INF] Route matched with "{action = \"GetAllUsers\", controller = \"Users\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllUsers(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.UsersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-08T17:15:09.5541742+07:00 0HLR46HASO1S6:00000007 [INF] Executing action method "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-08T17:15:09.5571660+07:00 0HLR46HASO1S6:00000007 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-08T17:15:09.5631201+07:00 0HLR46HASO1S6:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [user].[Id], [user].[Email], [user].[FullName], [user].[PhoneNumber], [user].[UserName], [role].[Name] AS [Role]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [AspNetUserRoles] AS [userrole] ON [user].[Id] = [userrole].[UserId]
+INNER JOIN [AspNetRoles] AS [role] ON [userrole].[RoleId] = [role].[Id]" (0723d8ff)
+2019-11-08T17:15:09.5663145+07:00 0HLR46HASO1S6:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [user].[Id], [user].[Email], [user].[FullName], [user].[PhoneNumber], [user].[UserName], [role].[Name] AS [Role]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [AspNetUserRoles] AS [userrole] ON [user].[Id] = [userrole].[UserId]
+INNER JOIN [AspNetRoles] AS [role] ON [userrole].[RoleId] = [role].[Id]" (0723d8ff)
+2019-11-08T17:15:09.5693486+07:00 0HLR46HASO1S6:00000007 [INF] Executed action method "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.2983ms. (50a9e262)
+2019-11-08T17:15:09.5717671+07:00 0HLR46HASO1S6:00000007 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.User.UserForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-08T17:15:09.5746647+07:00 0HLR46HASO1S6:00000007 [INF] Executed action "LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)" in 22.7288ms (afa2e885)
+2019-11-08T17:15:09.5769312+07:00 0HLR46HASO1S6:00000007 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.UsersController.GetAllUsers (LearningEnglish.Admin)"' (99874f2b)
+2019-11-08T17:15:09.5811954+07:00 0HLR46HASO1S6:00000007 [INF] Request finished in 45.6234ms 200 application/json; charset=utf-8 (791a596a)

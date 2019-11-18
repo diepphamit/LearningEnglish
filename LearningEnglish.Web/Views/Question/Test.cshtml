@@ -1,0 +1,62 @@
+﻿@model List<QuestionForReturnViewModel>
+@{
+    ViewData["Title"] = "Test";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var ID = ViewBag.ID;
+}
+
+<br />
+<br />
+<br />
+<div class="row">
+    <div class="col-12">
+        <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+            <h3>BÀI THI TRẮC NGHIỆM</h3>
+        </div>
+    </div>
+</div>
+<h5>You can choose one or more answers for each question.</h5>
+<form action="/question/test/@ID" method="post" id="asddsa">
+    @foreach (var question in Model)
+    {
+        <div class="ml-5">
+            <div>
+                <label style="font-size: 32px ;">@question.Content?</label>
+            </div>
+            <div>
+                <ul style="list-style-type: upper-alpha">
+                    @foreach (var answer in question.Answers)
+                    {
+                        <li>
+                            <input type="checkbox" name="listAnswer" value="@answer.Id" />
+                            <label style="font-size: 20px"> @answer.Content</label>
+                        </li>
+                    }
+                    <input type="hidden" name="questionId" asp-for="@question.Id" />
+
+
+                </ul>
+            </div>
+
+        </div>
+
+    }
+    <input type="hidden" name="courseId" asp-for="@ID" />
+    <input type="hidden" id="userID " name="userId" />
+    <center><input type="submit" class="btn btn-success" value="Submit" /></center>
+</form>
+
+@section scripts{ 
+    <script>
+        x = window.localStorage.getItem("user");
+        if (x == null) {
+            window.location.href='/lesson/@ID';
+            alert("You have to login or register to test this coure!");
+        }
+        else {
+            Id = JSON.parse(x).Id;
+            document.getElementById('asddsa').userId.value = Id;
+
+        }
+    </script>
+}

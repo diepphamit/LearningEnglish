@@ -1,0 +1,51 @@
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Cập nhật</h3>
+    </div>
+
+    <form [formGroup]="editUserForm" (submit)="editUser()" novalidate>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tên đầy đủ</label>
+                        <input type="text" class="form-control" formControlName="fullName" placeholder="Tên đầy đủ" [ngClass]="{ 'is-invalid': f.fullName.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Số điện thoại</label>
+                        <input type="text" class="form-control" formControlName="phoneNumber" placeholder="Phone Number" [ngClass]="{ 'is-invalid': f.phoneNumber.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Địa chỉ</label>
+                        <input type="text" class="form-control" formControlName="address" placeholder="Địa chỉ" [ngClass]="{ 'is-invalid': f.address.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Giới Tính</label>
+                        <select class="form-control" formControlName="gender" (ngModelChange)="genderFilter($event)" [ngClass]="{ 'is-invalid': f.gender.errors }">
+                            <option *ngFor="let gender1 of genders " value={{gender1.key}}>{{gender1.value[0]}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Ngày sinh</label>
+                        <input type="text" bsDatepicker class="form-control" formControlName="dateOfBirth" [ngClass]="{ 'is-invalid': f.dateOfBirth.errors }">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="box-footer">
+            <button [routerLink]="['/home']" class="btn btn-default">Hủy</button>
+            <button type="submit" [disabled]="editUserForm.invalid" class="btn btn-success pull-right">Lưu</button>
+        </div>
+    </form>
+
+</div>

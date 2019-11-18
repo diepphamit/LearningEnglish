@@ -15,7 +15,7 @@ using System.Threading.Tasks;
 namespace LearningEnglish.Admin.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(Roles = Constants.AdminRole)]
+    //[Authorize(Roles = Constants.AdminRole)]
     [ApiController]
     public class UsersController : ControllerBase
     {
@@ -40,17 +40,17 @@ namespace LearningEnglish.Admin.Controllers
             try
             {
                 var currentUser = HttpContext.User.Identity.Name;
-                var list = _userRepository.GetListUsers(keyword);
+                var list = _userRepository.GetListUsersRole(keyword);
                 list = list.Where(x => x.UserName != currentUser);
 
                 int totalCount = list.Count();
 
                 var query = list.OrderByDescending(x => x.Id).Skip((page - 1) * pageSize).Take(pageSize);
-                var response = _mapper.Map<IEnumerable<User>, IEnumerable<UserForListDto>>(query);
+                //var response = _mapper.Map<IEnumerable<User>, IEnumerable<UserForListDto>>(query);
 
                 var paginationSet = new PaginationSet<UserForListDto>()
                 {
-                    Items = response,
+                    Items = query.ToList(),
                     Total = totalCount,
                 };
 
@@ -67,11 +67,23 @@ namespace LearningEnglish.Admin.Controllers
         [HttpGet("{id}")]
         public async Task<IActionResult> GetUserById(int id)
         {
-            var user = await _userRepository.GetUserByIdAsync(id);
+            var user = await _userRepository.GetUserDetailByIdAsync(id);
             if (user == null)
                 return NotFound();
 
-            return Ok(_mapper.Map<UserForReturnDto>(user));
+            return Ok(user);
+        }
+
+        [Route("GetUserFullById/{id}")]
+        [HttpGet]
+        public async Task<IActionResult> GetUserFullById(int id)
+        {
+            var user = await _userRepository.GetUserFullByIdAsync(id);
+            if (user == null)
+                return NotFound();
+
+            //var s = _mapper.Map<UserFullDto>(user);
+            return Ok(user);
         }
 
         [HttpPost]
@@ -90,7 +102,7 @@ namespace LearningEnglish.Admin.Controllers
 
             return BadRequest(ModelState);
         }
-
+        
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(int id, [FromBody] UserForUpdateDto input)
         {
@@ -111,6 +123,29 @@ namespace LearningEnglish.Admin.Controllers
 
             return BadRequest(ModelState);
         }
+        [Route("UpdateUserFull/{id}")]
+        [HttpPut]
+        public async Task<IActionResult> UpdateUserFull(int id, [FromBody] UserForUpdateFullDto input)
+        {
+            if (ModelState.IsValid)
+            {
+                var userInDb = await _userRepository.GetUserByIdAsync(id);
+                if (userInDb == null)
+                    return NotFound(id);
+
+                var result = await _userRepository.UpdateUserFullAsync(id, userInDb, input);
+                if (result.Succeeded)
+                {
+                    return Ok();
+                }
+
+                AddError(result.Errors);
+            }
+
+            return BadRequest(ModelState);
+        }
+
+
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteUser(int id)

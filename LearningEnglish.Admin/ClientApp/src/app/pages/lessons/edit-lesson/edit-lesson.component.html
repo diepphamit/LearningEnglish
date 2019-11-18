@@ -1,0 +1,61 @@
+<!-- error block -->
+<!-- <div *ngIf="isSubmitted && cityName.errors?.required">
+    <sup>*</sup>Please enter your city name
+</div> -->
+
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Cập nhật</h3>
+    </div>
+
+    <form [formGroup]="editLessonForm" (submit)="editLesson()" novalidate>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tên</label>
+                        <input type="text" class="form-control" formControlName="name" placeholder="Tên Bài Học" [ngClass]="{ 'is-invalid': f.name.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Khoa hoc</label>
+                        <select class="form-control" formControlName="courseId" [ngClass]="{ 'is-invalid': f.courseId.errors }">
+                            <option *ngFor="let course of courses | async" value={{course.id}}>{{course.name}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Type</label>
+                        <input type="text" class="form-control" formControlName="type" placeholder="Type" [ngClass]="{ 'is-invalid': f.type.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Giới thiệu</label>
+                        <input type="text" class="form-control" formControlName="introduce" placeholder="Giới thiệu" [ngClass]="{ 'is-invalid': f.introduce.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Video</label>
+                        <input type="text" class="form-control" formControlName="video" placeholder="Video" [ngClass]="{ 'is-invalid': f.video.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tiêu đề</label>
+                        <input type="text" class="form-control" formControlName="tittle" placeholder="Tiêu đề" [ngClass]="{ 'is-invalid': f.tittle.errors }">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer">
+            <button [routerLink]="['/lessons']" class="btn btn-default">Hủy</button>
+            <button type="submit" [disabled]="editLessonForm.invalid" class="btn btn-success pull-right">Lưu</button>
+        </div>
+    </form>
+
+</div>

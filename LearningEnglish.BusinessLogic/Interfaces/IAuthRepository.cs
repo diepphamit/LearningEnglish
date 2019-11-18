@@ -1,4 +1,5 @@
 ﻿using LearningEnglish.BusinessLogic.Dtos.User;
+using LearningEnglish.BusinessLogic.ViewModels.User;
 using LearningEnglish.DataAccess.Entities;
 using System.Threading.Tasks;
 
@@ -11,5 +12,9 @@ namespace LearningEnglish.BusinessLogic.Interfaces
         Task<User> GetUserByUserName(string username);
 
         Task<string> GenerateJwtToken(User user);
+
+        #region ViewModel
+        Task<bool> CheckLoginViewModel(UserForLoginViewModel userForLoginViewModel);
+        #endregion
     }
 }

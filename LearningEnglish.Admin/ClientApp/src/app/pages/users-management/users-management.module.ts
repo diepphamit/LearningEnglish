@@ -6,6 +6,8 @@ import { UsersManagementRoutingModule } from './users-management-routing.module'
 import { AddUserComponent } from './add-user/add-user.component';
 import { EditUserComponent } from './edit-user/edit-user.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { EditfullUserComponent } from './editfull-user/editfull-user.component';
+import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 
 @NgModule({
     imports: [
@@ -13,12 +15,14 @@ import { NgxPaginationModule } from 'ngx-pagination';
         FormsModule,
         ReactiveFormsModule,
         UsersManagementRoutingModule,
-        NgxPaginationModule
+        NgxPaginationModule,
+        BsDatepickerModule.forRoot()
     ],
     declarations: [
         UsersManagementComponent,
         AddUserComponent,
-        EditUserComponent
+        EditUserComponent,
+        EditfullUserComponent
     ]
 })
 export class UsersManagementModule { }

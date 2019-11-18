@@ -1,0 +1,48 @@
+﻿@model LessonForDetailViewModel;
+@{
+
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+    
+}
+<div class="top-popular-courses-area section-padding-100-70">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <span>@Model.CourseName</span>
+                    <h3>@Model.Name</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12  wow fadeInUp" data-wow-delay="400ms">
+                <p>@Model.Introduce</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                                src="@Model.Video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
+                        <button type="button" class="btn btn-outline-secondary" onclick="quay_lai_trang_truoc()"> Back</button>
+                        <script>
+                            function quay_lai_trang_truoc() {
+                                history.back();
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+

@@ -18,12 +18,20 @@ export class UserService {
         return this.http.get(`${this.baseUrl}/${id}`);
     }
 
+    getUserFullById(id: any): Observable<any> {
+        return this.http.get(`${this.baseUrl}/GetUserFullById/${id}`);
+    }
+
     createUser(user: any) {
         return this.http.post(this.baseUrl, user);
     }
 
     editUser(id: any, user: any) {
         return this.http.put(`${this.baseUrl}/${id}`, user);
+    }
+
+    editUserFull(id: any, user: any) {
+        return this.http.put(`${this.baseUrl}/UpdateUserFull/${id}`, user);
     }
 
     deleteUser(id: any) {

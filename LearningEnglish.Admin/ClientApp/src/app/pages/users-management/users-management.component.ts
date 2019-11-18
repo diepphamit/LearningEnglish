@@ -56,6 +56,10 @@ export class UsersManagementComponent implements OnInit {
         this.router.navigate(['/users/edit/' + id]);
     }
 
+    editFull(id: any) {
+        this.router.navigate(['/users/editfull/' + id]);
+    }
+
     deleteConfirm(template: TemplateRef<any>, data: any) {
         this.user = Object.assign({}, data);
         this.modalRef = this.modalService.show(template);

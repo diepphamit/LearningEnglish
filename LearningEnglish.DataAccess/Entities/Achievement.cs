@@ -11,9 +11,10 @@ namespace LearningEnglish.DataAccess.Entities
 
         public DateTime TestDate { get; set; }
 
-        public int LessonId { get; set; }
+        public int CourseId { get; set; }
 
-        [ForeignKey("LessonId")]
-        public virtual Lesson Lesson { get; set; }
+        [ForeignKey("CourseId")]
+        public virtual Course Course { get; set; }
+        public int UserId { get; set; }
     }
 }

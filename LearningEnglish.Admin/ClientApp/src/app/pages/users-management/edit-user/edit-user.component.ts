@@ -16,6 +16,12 @@ export class EditUserComponent implements OnInit {
     editUserForm: FormGroup;
     user: User;
     id: any;
+    rol: string;
+    roles1: any[] = [
+        { key: 1, value: ['Admin'] },
+        { key: 2, value: ['Teacher'] },
+        { key: 3, value: ['Customer'] }
+    ]
 
     constructor(
         private fb: FormBuilder,
@@ -27,7 +33,9 @@ export class EditUserComponent implements OnInit {
         this.editUserForm = this.fb.group({
             userName: ['', Validators.required],
             fullName: ['', Validators.required],
-            email: ['', Validators.required]
+            email: ['', Validators.required],
+            role: ['', Validators.required]
+
         });
     }
 
@@ -41,6 +49,7 @@ export class EditUserComponent implements OnInit {
                         this.editUserForm.controls.userName.setValue(result.userName);
                         this.editUserForm.controls.fullName.setValue(result.fullName);
                         this.editUserForm.controls.email.setValue(result.email);
+                        this.editUserForm.controls.role.setValue(result.role);
                     },
                     error => {
                         this.toastr.error(`Không tìm thấy tài khoản này`);
@@ -51,8 +60,7 @@ export class EditUserComponent implements OnInit {
 
     editUser() {
         this.user = Object.assign({}, this.editUserForm.value);
-        this.user.roles = ['Admin'];
-
+        this.user.roles = [this.rol];
         this.userService.editUser(this.id, this.user).subscribe(
             () => {
                 this.router.navigate(['/users']).then(() => {
@@ -72,4 +80,8 @@ export class EditUserComponent implements OnInit {
     }
 
     get f() { return this.editUserForm.controls; }
+    
+    roleFilter(value:string){
+        this.rol = value;
+    }
 }

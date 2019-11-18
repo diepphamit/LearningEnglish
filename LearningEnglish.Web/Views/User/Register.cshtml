@@ -1,0 +1,154 @@
+﻿@model  UserForCreateViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign Up</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/dangki/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangki/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link href="~/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/dangki/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/dangki/css/main.css">
+    <script>
+        if (window.localStorage.getItem("user") != null) window.location.href = '/home';
+    </script>
+    <!--===============================================================================================-->
+</head>
+<body style="background-color: #999999;">
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="login100 w-100 h-100" style="background-image: url('/img/baihoc/bm_0011_Layer-12.png');">
+                <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50 m-auto">
+                    <form class="login100-form validate-form" action="/user/register" method="post">
+                        <span class="login100-form-title p-b-59">
+                            Sign Up
+                        </span>
+
+                        <div class="wrap-input100 validate-input" data-validate="Username is required">
+                            <span class="label-input100">username</span>
+                            <input class="input100" type="text" name="UserName" value="@Model.UserName" placeholder="Username...">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                            <span class="label-input100">Email</span>
+                            <input class="input100" type="text" name="Email" value="@Model.Email" placeholder="Email addess...">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Username is required">
+                            <span class="label-input100">Full Name</span>
+                            <input class="input100" type="text" name="FullName" value="@Model.FullName" placeholder="Fullname...">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Password is required">
+                            <span class="label-input100">Password</span>
+                            <input class="input100" type="text" name="Password" value="@Model.Password" placeholder="*************">
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input" data-validate="Repeat Password is required">
+                            <span class="label-input100">Repeat Password</span>
+                            <input class="input100" type="text" name="PasswordAgain" value="@Model.PasswordAgain" placeholder="*************">
+                            <span class="focus-input100"></span>
+                        </div>
+                        <div class="wrap-input100 validate-input" data-validate="Phone number is required">
+                            <span class="label-input100">Phone number</span>
+                            <input class="input100" type="text" name="PhoneNumber" value="@Model.PhoneNumber" placeholder="0123456789">
+                            <span class="focus-input100"></span>
+                        </div>
+                        
+                        <p style="color:red;" id="checkPass"></p>
+                        <div class="container-login100-form-btn">
+                            <div class="wrap-login100-form-btn">
+                                <div class="login100-form-bgbtn"></div>
+                                <button class="login100-form-btn">
+                                    Sign Up
+                                </button>
+                            </div>
+
+                            <a href="/auth/login" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+                                Sign in
+                                <i class="fa fa-long-arrow-right m-l-5"></i>
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/bootstrap/js/popper.js"></script>
+    <script src="/dangki/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/daterangepicker/moment.min.js"></script>
+    <script src="/dangki/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="/dangki/js/main.js"></script>
+    @{
+
+        
+        if (TempData["msg"] != null)
+        {
+            if (TempData["msg"] != "0" && TempData["msg"] != "1")
+            {
+                <script>
+                username = { username:'@TempData["msg"]' ,Id : '@TempData["userId"]'}
+                username = JSON.stringify(username);
+                window.localStorage.setItem("user", username);
+                window.location.href='/home';
+                </script>
+            }
+            else if (TempData["msg"] == "1")
+            {
+                <script>
+                    document.getElementById('checkPass').innerHTML = "Hai mat khau khong khop nhau";
+                </script>
+            }
+            else
+            {
+                <script>
+                    document.getElementById('checkPass').innerHTML = '@TempData["msg1"]';
+                </script>
+            }
+
+        }
+
+    }
+</body>
+</html>

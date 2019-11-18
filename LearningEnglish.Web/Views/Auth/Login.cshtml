@@ -1,0 +1,131 @@
+﻿@model  UserForLoginViewModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="/dangnhap/images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/bootstrap/css/bootstrap.min.css">
+
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="/dangnhap/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link href="~/style.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="/dangnhap/css/util.css">
+    <link rel="stylesheet" type="text/css" href="/dangnhap/css/main.css">
+    <script>
+        if (window.localStorage.getItem("user") != null) window.location.href = '/home';
+    </script>
+    <!--===============================================================================================-->
+</head>
+<body>
+
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100">
+                <form class="login100-form validate-form" action="/auth/login" method="post">
+                    <span class="login100-form-title p-b-34">
+                        Account Login
+                    </span>
+
+                    <div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
+                        <input id="first-name" class="input100" type="text" name="Username" value="@Model.Username" placeholder="User name">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type password">
+                        <input class="input100" type="password" name="Password" value="@Model.Password" placeholder="Password">
+                        <span class="focus-input100"></span>
+                    </div>
+                    <p style="color:red;" id="checkPass"></p>
+                    <div class="container-login100-form-btn">
+                        <button class="login100-form-btn">
+                            Sign in
+                        </button>
+                    </div>
+                    
+                    <br>
+                    <div class="w-full text-center">
+                        <a href="/user/register" class="txt3">
+                            Sign Up
+                        </a>
+                    </div>
+                </form>
+
+                <div class="login100-more mw-100 mh-100" style="background-image: url(/img/baihoc/1.jpg);"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/dangnhap/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/select2/select2.min.js"></script>
+    <script>
+        $(".selection-2").select2({
+            minimumResultsForSearch: 20,
+            dropdownParent: $('#dropDownSelect1')
+        });
+    </script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/dangnhap/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/dangnhap/js/main.js"></script>
+    <script src="~/js/jquery/jquery-2.2.4.min.js"></script>
+    @{
+        <script>
+            if (window.localStorage.getItem("user") != null) window.location.href = '/home';
+        </script>
+        if (TempData["msg"] != null)
+        {
+            if (TempData["msg"] != "0")
+            {
+                <script>
+                username = { username:'@TempData["msg"]',Id : '@TempData["userId"]' }
+                username = JSON.stringify(username);
+                window.localStorage.setItem("user", username);
+                window.location.href='/home';
+                </script>
+            }
+            else
+            {
+                <script>
+                    document.getElementById('checkPass').innerHTML = "Sai Tên đăng nhập hoặc mật khẩu";
+                </script>
+            }
+
+        }
+
+    }
+
+</body>
+</html>

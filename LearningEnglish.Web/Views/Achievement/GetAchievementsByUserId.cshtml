@@ -1,0 +1,50 @@
+﻿@model  List<AchievementForReturnViewModel>
+@{
+    ViewData["Title"] = "GetAchievementsByUserId";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var userID = ViewBag.UserID;
+}
+<br /><br /><br />
+<div class="box box-primary">
+    <div class="box-header with-border">
+        <h3 class="box-title">Kết Quả Thi</h3>
+    </div>
+    <div class="box-body">
+        <div class="row">
+            <div class="col-md-12">
+                <table class="table table-bordered">
+                    <tbody>
+                        <tr>
+                            <th>Điểm</th>
+                            <th>Ngày Thi</th>
+                            <th>Khóa Học</th>
+                        </tr>
+                        @foreach (var ach in Model)
+                        {
+                            <tr>
+                                <td>@ach.Point</td>
+                                <td>@ach.TestDate</td>
+                                <td>@ach.CourseName</td>
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+@section scripts{ 
+    <script>
+        user = window.localStorage.getItem("user");
+        if (user == null) {
+            window.location.href='/home';
+        }
+        else {
+            if (JSON.parse(user).Id != '@userID') {
+                window.location.href = '/home';
+            }
+        } 
+    </script>
+}
+

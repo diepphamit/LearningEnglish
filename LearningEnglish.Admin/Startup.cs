@@ -16,6 +16,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Swashbuckle.AspNetCore.Swagger;
+using System;
+using System.Collections.Generic;
 using System.Text;
 
 namespace LearningEnglish.Admin
@@ -80,12 +82,32 @@ namespace LearningEnglish.Admin
             // Repository
             services.AddScoped<IAuthRepository, AuthRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICourseRepository, CourceRepository>();
+            services.AddScoped<ILessonRepository, LessonRepository>();
+            services.AddScoped<IVocabularyRepository, VocabularyRepository>();
+            services.AddScoped<IPronunciationRepository, PronuciationRepository>();
+            services.AddScoped<IAnswerRepository, AnswerRepository>();
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
+            services.AddScoped<ICommentRepository, CommentRepository>();
+            services.AddScoped<IAchievementRepository, AchievementRepository>();
+            services.AddScoped<IUserCourseRepository, UserCourseRepository>();
 
             services.AddCors();
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Info { Title = "Learning English API", Version = "v1" });
+                //c.AddSecurityDefinition("Bearer", new ApiKeyScheme
+                //{
+                //    Description = "JWT Authorization header using the Bearer scheme. Example: \"Authorization: Bearer {token}\"",
+                //    Name = "Authorization",
+                //    In = "header",
+                //    Type = "apiKey"
+                //});
+                //c.AddSecurityRequirement(new Dictionary<string, IEnumerable<string>>
+                //{
+                //    {"Bearer", new string[] { }},
+                //});
             });
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
@@ -135,7 +157,7 @@ namespace LearningEnglish.Admin
                 // see https://go.microsoft.com/fwlink/?linkid=864501
 
                 spa.Options.SourcePath = "ClientApp";
-
+                spa.Options.StartupTimeout = new TimeSpan(0, 5, 0);
                 if (env.IsDevelopment())
                 {
                     spa.UseAngularCliServer(npmScript: "start");

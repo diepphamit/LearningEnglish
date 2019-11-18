@@ -1,0 +1,48 @@
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Thêm mới</h3>
+    </div>
+
+    <form [formGroup]="addAnswerForm" (submit)="addAnswer()" novalidate>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>tên câu hỏi</label>
+                        <input type="text" class="form-control" formControlName="name" placeholder="Tên câu hỏi" [ngClass]="{ 'is-invalid': f.name.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Bài học</label>
+                        <select class="form-control" formControlName="questionId" [ngClass]="{ 'is-invalid': f.questionId.errors }">
+                            <option value="">Choose your Question</option>
+                            <option *ngFor="let question of questions | async" value={{question.id}}>{{question.name}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Nội dung câu trả lời</label>
+                        <input type="text" class="form-control" formControlName="content" placeholder="câu trả lời" [ngClass]="{ 'is-invalid': f.content.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Đúng/Sai</label>
+                        <select class="form-control" formControlName="correctAnswer" [ngClass]="{ 'is-invalid': f.correctAnswer.errors }">
+                            <option value="">Chọn câu trả lời đúng hay sai</option>
+                            <option *ngFor="let correct of corrects " value={{correct.key}}>{{correct.value[0]}}</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer">
+            <button [routerLink]="['/answers']" class="btn btn-default">Hủy</button>
+            <button type="submit" [disabled]="addAnswerForm.invalid" class="btn btn-success pull-right">Lưu</button>
+        </div>
+    </form>
+
+</div>

@@ -1,9 +1,11 @@
 ﻿using AutoMapper;
 using LearningEnglish.BusinessLogic.Dtos.User;
 using LearningEnglish.BusinessLogic.Interfaces;
+using LearningEnglish.BusinessLogic.ViewModels.User;
 using LearningEnglish.DataAccess.Data;
 using LearningEnglish.DataAccess.Entities;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,19 +28,39 @@ namespace LearningEnglish.BusinessLogic.Implementation
 
         public IEnumerable<User> GetListUsers(string keyword)
         {
-
             if (!string.IsNullOrEmpty(keyword))
             {
-                return _context.Users
+                var s1 = _context.Users
+                     //.Include(x=>x.UserRoles)
                      .Where(x =>
                          x.Email.ToLower().Contains(keyword.ToLower()) ||
                          x.UserName.ToLower().Contains(keyword.ToLower()) ||
                          x.FullName.ToLower().Contains(keyword.ToLower()) ||
                          x.PhoneNumber.ToLower().Contains(keyword.ToLower()))
                      .AsEnumerable();
+                return s1;
             }
 
-            return _context.Users.AsEnumerable();
+            return _context.Users.Include(x => x.UserRoles).AsEnumerable();
+
+        }
+
+        public IEnumerable<UserForListDto> GetListUsersRole(string keyword)
+        {
+            var a = from user in _context.Users
+                    join userrole in _context.UserRoles on user.Id equals userrole.UserId
+                    join role in _context.Roles on userrole.RoleId equals role.Id
+                    select new UserForListDto
+                    {
+                        Id = user.Id,
+                        Email = user.Email,
+                        FullName = user.FullName,
+                        PhoneNumber = user.PhoneNumber,
+                        UserName = user.UserName,
+                        Role = role.Name
+                    };
+
+            return a.AsEnumerable();
         }
 
         public async Task<(bool Succeeded, string[] Errors)> CreateUserAsync(UserForCreateDto userDto)
@@ -79,6 +101,24 @@ namespace LearningEnglish.BusinessLogic.Implementation
         {
             return await _userManager.FindByIdAsync(id.ToString());
         }
+        public async Task<UserForListDto> GetUserDetailByIdAsync(int id)
+        {
+            var a = from user in _context.Users
+                    join userrole in _context.UserRoles on user.Id equals userrole.UserId
+                    join role in _context.Roles on userrole.RoleId equals role.Id
+                    where (user.Id ==id)
+                    select new UserForListDto
+                    {
+                        Id = user.Id,
+                        Email = user.Email,
+                        FullName = user.FullName,
+                        PhoneNumber = user.PhoneNumber,
+                        UserName = user.UserName,
+                        Role = role.Name
+                    };
+
+            return await a.FirstOrDefaultAsync();
+        }
 
         public async Task<(bool Succeeded, string[] Errors)> UpdateUserAsync(int id, User userInDb, UserForUpdateDto userDto)
         {
@@ -111,6 +151,71 @@ namespace LearningEnglish.BusinessLogic.Implementation
             }
 
             return (true, new string[] { });
+        }
+
+
+        public async Task<(bool Succeeded, string[] Errors)> UpdateUserFullAsync(int id, User userInDb, UserForUpdateFullDto userDto)
+        {
+            _mapper.Map(userDto, userInDb);
+
+            var result = await _userManager.UpdateAsync(userInDb);
+            if (!result.Succeeded)
+                return (false, result.Errors.Select(e => e.Description).ToArray());
+
+            return (true, new string[] { });
+        }
+
+        public async Task<User> GetUserFullByIdAsync(int id)
+        {
+            return await _context.Users.FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<(bool Succeeded, string[] Errors)> CreateUserViewModel(UserForCreateViewModel userViewModel)
+        {
+            try
+            {
+                var user = _mapper.Map<User>(userViewModel);
+                var result = await _userManager.CreateAsync(user, userViewModel.Password);
+                if (!result.Succeeded)
+                    return (false, result.Errors.Select(e => e.Description).ToArray());
+
+                user = await _userManager.FindByNameAsync(user.UserName);
+                string[] role = new string[1] { "Customer"};
+                result = await _userManager.AddToRolesAsync(user, role);
+
+                if (!result.Succeeded)
+                {
+                    await DeleteUserAsync(user);
+                    return (false, result.Errors.Select(e => e.Description).ToArray());
+                }
+
+                return (true, new string[] { });
+            }
+            catch (Exception ex)
+            {
+                return (false, new string[] { ex.ToString() });
+            }
+        }
+
+        public async Task<(bool Succeeded, string[] Errors)> UpdateUserViewModel(int id, User userInDb, UserForUpdateViewModel userViewModel)
+        {
+            _mapper.Map(userViewModel, userInDb);
+
+            var result = await _userManager.UpdateAsync(userInDb);
+            if (!result.Succeeded)
+                return (false, result.Errors.Select(e => e.Description).ToArray());
+
+            return (true, new string[] { });
+        }
+
+        public async Task<User> GetUserByUsernameViewModel(string username)
+        {
+            return await _userManager.FindByNameAsync(username.ToString());
+        }
+
+        public async Task<User> GetUserByIdViewModel(int id)
+        {
+            return await _userManager.FindByIdAsync(id.ToString());
         }
     }
 }

@@ -66,8 +66,19 @@ namespace LearningEnglish.Web
             });
 
             services.AddScoped<ICourseRepository, CourceRepository>();
+            services.AddScoped<IAuthRepository, AuthRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IAnswerRepository, AnswerRepository>();
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
+            services.AddScoped<IAchievementRepository, AchievementRepository>();
+            services.AddScoped<ILessonRepository, LessonRepository>();
+            services.AddScoped<IVocabularyRepository, VocabularyRepository>();
+            services.AddScoped<IPronunciationRepository, PronuciationRepository>();
 
-
+            services.AddDistributedMemoryCache();
+            services.AddSession(options => {
+                options.IdleTimeout = TimeSpan.FromMinutes(1);//You can set Time   
+            });
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
         }
 
@@ -88,6 +99,7 @@ namespace LearningEnglish.Web
             app.UseHttpsRedirection();
             app.UseStaticFiles();
             app.UseCookiePolicy();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {

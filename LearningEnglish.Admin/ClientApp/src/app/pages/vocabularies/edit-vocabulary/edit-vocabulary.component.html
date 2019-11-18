@@ -1,0 +1,49 @@
+<!-- error block -->
+<!-- <div *ngIf="isSubmitted && cityName.errors?.required">
+    <sup>*</sup>Please enter your city name
+</div> -->
+
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Cập nhật</h3>
+    </div>
+
+    <form [formGroup]="editVocabularyForm" (submit)="editVocabulary()" novalidate>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Bài học</label>
+                        <select class="form-control" formControlName="lessonId" [ngClass]="{ 'is-invalid': f.lessonId.errors }">
+                            <option *ngFor="let lesson of lessons | async" value={{lesson.id}}>{{lesson.name}}</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Phonetic</label>
+                        <input type="text" class="form-control" formControlName="phonetic" placeholder="Phát âm" [ngClass]="{ 'is-invalid': f.phonetic.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Video</label>
+                        <input type="text" class="form-control" formControlName="video" placeholder="Video" [ngClass]="{ 'is-invalid': f.video.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Audio</label>
+                        <input type="text" class="form-control" formControlName="audio" placeholder="Audio" [ngClass]="{ 'is-invalid': f.audio.errors }">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer">
+            <button [routerLink]="['/vocabularies']" class="btn btn-default">Hủy</button>
+            <button type="submit" [disabled]="editVocabularyForm.invalid" class="btn btn-success pull-right">Lưu</button>
+        </div>
+    </form>
+
+</div>

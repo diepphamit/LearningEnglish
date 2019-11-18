@@ -27,14 +27,13 @@ h6 {
   color: #242424;
   line-height: 1.3;
   font-weight: 700; }
-.b {
-    display: block;
-    display: -webkit-box;
+.rutgon {
+    display: -webkit-box !important;
     max-width: 200px;
     -webkit-line-clamp: 4;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: ellipsis !important;
 }
 p {
   color: #606060;

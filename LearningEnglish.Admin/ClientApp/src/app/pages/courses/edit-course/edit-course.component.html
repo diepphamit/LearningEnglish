@@ -1,0 +1,34 @@
+<div class="box box-primary">
+
+    <div class="box-header with-border">
+        <h3 class="box-title">Cập nhật</h3>
+    </div>
+
+    <form [formGroup]="editCourseForm" (submit)="editCourse()" novalidate>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tên</label>
+                        <input type="text" class="form-control" formControlName="name" placeholder="Tên khóa học" [ngClass]="{ 'is-invalid': f.name.errors }">
+                    </div>
+                    <div class="form-group">
+                        <label>Giới thiệu</label>
+                        <input type="text" class="form-control" formControlName="introduce" placeholder="Giới thiệu" [ngClass]="{ 'is-invalid': f.introduce.errors }">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Hình ảnh</label>
+                        <input type="text" class="form-control" formControlName="image" placeholder="Hình ảnh" [ngClass]="{ 'is-invalid': f.image.errors }">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="box-footer">
+            <button [routerLink]="['/courses']" class="btn btn-default">Hủy</button>
+            <button type="submit" [disabled]="editCourseForm.invalid" class="btn btn-success pull-right">Lưu</button>
+        </div>
+    </form>
+
+</div>
