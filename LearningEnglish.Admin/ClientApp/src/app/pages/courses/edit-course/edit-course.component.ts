@@ -16,6 +16,13 @@ export class EditCourseComponent implements OnInit {
     editCourseForm: FormGroup;
     course: Course;
     id: any;
+    level: any[] = [
+        { key: 1, value: 1 },
+        { key: 2, value: 2 },
+        { key: 3, value: 3 },
+        { key: 4, value: 4 },
+        { key: 5, value: 5 }
+    ]
 
     constructor(
         private fb: FormBuilder,
@@ -27,7 +34,8 @@ export class EditCourseComponent implements OnInit {
         this.editCourseForm = this.fb.group({
             name: ['', Validators.required],
             introduce: ['', Validators.required],
-            image: ['', Validators.required]
+            image: ['', Validators.required],
+            levelClass: ['', Validators.required]
         });
     }
 
@@ -42,6 +50,7 @@ export class EditCourseComponent implements OnInit {
                         this.editCourseForm.controls.name.setValue(result.name);
                         this.editCourseForm.controls.introduce.setValue(result.introduce);
                         this.editCourseForm.controls.image.setValue(result.image);
+                        this.editCourseForm.controls.levelClass.setValue(result.levelClass);
                     },
                     error => {
                         this.toastr.error(`Không tìm thấy khóa học này`);

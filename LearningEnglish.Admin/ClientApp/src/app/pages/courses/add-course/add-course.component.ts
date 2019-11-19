@@ -15,6 +15,13 @@ export class AddCourseComponent implements OnInit {
     
     addCourseForm: FormGroup;
     course: Course;
+    level: any[] = [
+        { key: 1, value: 1 },
+        { key: 2, value: 2 },
+        { key: 3, value: 3 },
+        { key: 4, value: 4 },
+        { key: 5, value: 5 }
+    ]
 
     constructor(
         private fb: FormBuilder,
@@ -25,7 +32,8 @@ export class AddCourseComponent implements OnInit {
         this.addCourseForm = this.fb.group({
             name: ['', Validators.required],
             introduce: ['', Validators.required],
-            image: ['', Validators.required]
+            image: ['', Validators.required],
+            levelClass: ['', Validators.required]
         });
      }
 

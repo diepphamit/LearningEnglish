@@ -144,6 +144,13 @@ namespace LearningEnglish.BusinessLogic.Implementation
             return _context.Courses.AsEnumerable();
         }
 
+        public async Task<List<CourseForListViewModel>> GetCoursesByLevelClass(int levalClass)
+        {
+            var result = await _context.Courses.Where(x=>x.LevelClass==levalClass).OrderByDescending(x => x.Id).ToListAsync();
+
+            return _mapper.Map<List<CourseForListViewModel>>(result);
+        }
+
         public async Task<List<CourseForListViewModel>> GetNewCourses()
         {
             var result = await _context.Courses.OrderByDescending(x => x.Id).Take(4).ToListAsync();

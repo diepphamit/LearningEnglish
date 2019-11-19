@@ -4,14 +4,16 @@ using LearningEnglish.DataAccess.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LearningEnglish.DataAccess.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20191119072517_AddLevelClassForCourse")]
+    partial class AddLevelClassForCourse
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -131,8 +133,6 @@ namespace LearningEnglish.DataAccess.Migrations
                     b.Property<string>("Audio");
 
                     b.Property<int>("LessonId");
-
-                    b.Property<string>("Name");
 
                     b.Property<string>("Phonetic");
 
@@ -290,8 +290,6 @@ namespace LearningEnglish.DataAccess.Migrations
                     b.Property<string>("Audio");
 
                     b.Property<int>("LessonId");
-
-                    b.Property<string>("Name");
 
                     b.Property<string>("Phonetic");
 

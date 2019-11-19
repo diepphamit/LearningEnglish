@@ -31,6 +31,7 @@
                             <th>Tên</th>
                             <th>Giới thiệu</th>
                             <th>Hình ảnh</th>
+                            <th>Lớp</th>
                             <th style="width: 10%;text-align: center;">Hành động</th>
                         </tr>
                         <tr *ngFor="let item of itemsAsync | async | paginate: { itemsPerPage: pageSize, currentPage: page, totalItems: total }">
@@ -38,6 +39,7 @@
                             <td>{{ item.name }}</td>
                             <td>{{ (item.introduce.length>40)? (item.introduce | slice:0:40)+'...':(item.introduce)}}</td>
                             <td>{{ item.image }}</td>
+                            <td>Lớp {{ item.levelClass }}</td>
                             <td style=" text-align: center;">
                                 <button class="btn btn-sm btn-primary" style="margin-right: 10px; margin-bottom: 5px;" (click)="edit(item.id)">
                                     <i class="fa fa-pencil"></i>

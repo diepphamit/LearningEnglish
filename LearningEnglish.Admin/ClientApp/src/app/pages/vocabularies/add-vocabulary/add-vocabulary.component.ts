@@ -30,7 +30,8 @@ export class AddVocabularyComponent implements OnInit {
       lessonId: ['', Validators.required],
       phonetic: ['', Validators.required],
       video: ['', Validators.required],
-      audio: ['', Validators.required]
+      audio: ['', Validators.required],
+      name: ['', Validators.required]
     });
   }
 

@@ -16,5 +16,6 @@ namespace LearningEnglish.DataAccess.Entities
         public string Video { get; set; }
 
         public string Audio { get; set; }
+        public string Name { get; set; }
     }
 }

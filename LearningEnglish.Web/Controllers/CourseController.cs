@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace LearningEnglish.Web.Controllers
 {
-    [Route("[controller]")]
+    [Route("[controller]/")]
     public class CourseController : Controller
     {
         private readonly ICourseRepository _courseRepository;
@@ -17,7 +17,7 @@ namespace LearningEnglish.Web.Controllers
         {
             _courseRepository = courseRepository;
         }
-        [Route("")]
+        [HttpGet]
         public async Task<IActionResult> GetCourses()
         {
             List<CourseForListViewModel> courses = await _courseRepository.GetCourses();
@@ -28,5 +28,14 @@ namespace LearningEnglish.Web.Controllers
 
             return View(courses);
         }
+
+        [HttpGet("class/{id}")]
+        public async Task<IActionResult> GetCoursesByLevelClass(int id)
+        {
+            List<CourseForListViewModel> courses = await _courseRepository.GetCoursesByLevelClass(id);
+            
+            return View(courses);
+        }
+
     }
 }

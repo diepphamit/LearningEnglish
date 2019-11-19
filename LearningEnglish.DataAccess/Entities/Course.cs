@@ -12,6 +12,7 @@ namespace LearningEnglish.DataAccess.Entities
         public string Introduce { get; set; }
 
         public string Image { get; set; }
+        public int LevelClass { get; set; }
 
         public virtual ICollection<UserCourse> UserCourses { get; set; }
 

@@ -7,6 +7,12 @@
     <form [formGroup]="addVocabularyForm" (submit)="addVocabulary()" novalidate>
         <div class="box-body">
             <div class="row">
+            <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Tên từ vựng</label>
+                        <input type="text" class="form-control" formControlName="name" placeholder="Tên từ vựng" [ngClass]="{ 'is-invalid': f.name.errors }">
+                    </div>
+                </div>
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label>Bài học</label>

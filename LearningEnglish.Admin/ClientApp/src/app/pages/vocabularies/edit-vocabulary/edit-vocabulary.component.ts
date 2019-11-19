@@ -33,6 +33,7 @@ export class EditVocabularyComponent implements OnInit {
             phonetic: ['', Validators.required],
             video: ['', Validators.required],
             audio: ['', Validators.required],
+            name: ['', Validators.required],
         });
     }
 
@@ -49,6 +50,7 @@ export class EditVocabularyComponent implements OnInit {
                         this.editVocabularyForm.controls.phonetic.setValue(result.phonetic);
                         this.editVocabularyForm.controls.video.setValue(result.video);
                         this.editVocabularyForm.controls.audio.setValue(result.audio);
+                        this.editVocabularyForm.controls.name.setValue(result.name);
                     },
                     () => {
                         this.toastr.error(`Không tìm thấy từ mới này`);

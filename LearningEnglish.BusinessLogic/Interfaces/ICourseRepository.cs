@@ -12,6 +12,7 @@ namespace LearningEnglish.BusinessLogic.Interfaces
     {
         #region ViewModel
         Task<List<CourseForListViewModel>> GetCourses();
+        Task<List<CourseForListViewModel>> GetCoursesByLevelClass(int levalClass);
         Task<List<CourseForListViewModel>> GetNewCourses();
         Task<List<CourseForListViewModel>> GetPopularCourses();
 

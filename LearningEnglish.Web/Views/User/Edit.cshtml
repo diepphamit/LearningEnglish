@@ -14,6 +14,9 @@
         gender = "Female";
         xGender = "Male";
     }
+    var s = Model.DateOfBirth.Date;
+    var d = "";
+
 }
 <br />
 <br />
@@ -58,9 +61,10 @@
                 <div class="col-sm-6">
                     <div class="form-group">
                         <label>Ngày sinh</label>
-                        <input type="text" class="form-control" asp-for="@Model.DateOfBirth">
+                        <input  type="date"  class="form-control" asp-for="@Model.DateOfBirth.Date">
                     </div>
                 </div>
+
             </div>
 
         </div>

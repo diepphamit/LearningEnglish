@@ -23,6 +23,14 @@
                         <input type="text" class="form-control" formControlName="image" placeholder="Hình ảnh" [ngClass]="{ 'is-invalid': f.image.errors }">
                     </div>
                 </div>
+                <div class="col-sm-6">
+                    <div class="form-group">
+                        <label>Lớp</label>
+                        <select class="form-control" formControlName="levelClass" [ngClass]="{ 'is-invalid': f.levelClass.errors }">
+                            <option *ngFor="let levelClass of level " value={{levelClass.value}}>Lớp {{levelClass.value}}</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="box-footer">
