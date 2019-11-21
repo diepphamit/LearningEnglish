@@ -81,6 +81,18 @@ namespace LearningEnglish.BusinessLogic.Implementation
             return _context.Pronunciations.Include(x => x.Lesson).AsEnumerable();
         }
 
+        public async Task<Pronunciation> GetPronunciationById(int Id)
+        {
+            return await _context.Pronunciations.Include(x => x.Lesson).FirstOrDefaultAsync(x => x.Id == Id);
+        }
+
+        public async Task<List<Pronunciation>> GetPronunciationsByLessonId(int LessonId)
+        {
+            return await (from x in _context.Pronunciations
+                          where (x.LessonId == LessonId)
+                          select x).ToListAsync();
+        }
+
         public async Task<Pronunciation> GetPronunciationByIdAsync(int id)
         {
             return await _context.Pronunciations.FirstOrDefaultAsync(x => x.Id == id);

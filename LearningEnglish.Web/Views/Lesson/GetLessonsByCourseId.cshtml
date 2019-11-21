@@ -11,7 +11,6 @@
             <div class="row">
                 <div class="col-12">
                     <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                        <span>The Best</span>
                         <h3>@Model[0].CourseName</h3>
                     </div>
                 </div>
@@ -24,29 +23,22 @@
             <div class="row">
                 <div class="col-12 ">
 
-                    <div class="accordions mb-100" id="accordion" role="tablist" aria-multiselectable="true">
-                        @{int i = 1; }
+                    <div class="accordion" id="accordion" role="tablist" aria-multiselectable="true">
+
                         @foreach (var lesson in Model)
                         {
-
-                            string collapse = "collapse" + i;
-                            string heading = "heading" + i;
-                            string accordion = "accordion" + i;
-                            string accordion0 = accordion + i;
-                            string collapse0 = collapse + i;
-                            string collapse00 = collapse0 + i;
                             <div class="panel single-accordion">
                                 <div class="view-all  wow fadeInUp" data-wow-delay="800ms">
                                     <h6>
-                                        <a role="button" class="collapsed" aria-expanded="false" aria-controls="@collapse" data-toggle="collapse" data-parent="#accordion" href="#@collapse">
-                                            <b>@lesson.Name</b>
+                                        <a role="button" class="collapsed" aria-expanded="false" aria-controls="collapse_@lesson.Id" data-toggle="collapse" data-parent="#accordion" href="#collapse_@lesson.Id">
+                                            @lesson.Name
                                             <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
                                             <span class="accor-close"><i class="fa fa-minus" aria-hidden="true"></i></span>
                                         </a>
                                     </h6>
 
 
-                                    <div id="@collapse" class="accordion-content collapse ">
+                                    <div id="collapse_@lesson.Id" class="accordion-content collapse ">
                                         <ul>
                                             <li>
                                                 <div class="border">
@@ -67,7 +59,7 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-12 ">
-                                                        <div class="accordions " id="@accordion" role="tablist" aria-multiselectable="true">
+                                                        <div class="accordions " id="accordion_@lesson.Id" role="tablist" aria-multiselectable="true">
                                                             <div class="panel single-accordion">
                                                                 <div class="view-all  " data-wow-delay="800ms">
 
@@ -75,7 +67,7 @@
 
                                                                     <h6>
                                                                         <span>
-                                                                            <a role="button" class="collapsed" aria-expanded="false" aria-controls="@collapse0" data-toggle="collapse" data-parent="#accordion" href="#@collapse0">
+                                                                            <a role="button" class="collapsed" aria-expanded="false" aria-controls="collapse0_@lesson.Id" data-toggle="collapse" data-parent="#accordion" href="#collapse0_@lesson.Id">
 
                                                                                 Vocabulary
                                                                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
@@ -84,56 +76,27 @@
                                                                         </span>
                                                                     </h6>
 
-                                                                    <div id="@collapse0" class="accordion-content collapse ">
+                                                                    <div id="collapse0_@lesson.Id" class="accordion-content collapse ">
                                                                         <ul>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Video
-                                                                                            </a>
-                                                                                        </span>
+                                                                            @foreach (var vocabulary in lesson.Vocabularies)
+                                                                            {
+                                                                                <li>
+                                                                                    <div class="border">
+                                                                                        <div class="ml-4 mt-2 mb-2">
+                                                                                            <span>
+                                                                                                <a href="/vocabulary/@vocabulary.Id">
+                                                                                                    <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
+                                                                                                </a>
+                                                                                            </span>
+                                                                                            <span class="ml-2">
+                                                                                                <a href="/vocabulary/@vocabulary.Id">
+                                                                                                    @vocabulary.Name
+                                                                                                </a>
+                                                                                            </span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Phonetic
-                                                                                            </a>
-                                                                                        </span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Audio
-                                                                                            </a>
-                                                                                        </span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </li>
+                                                                                </li>
+                                                                            }
                                                                         </ul>
                                                                     </div>
 
@@ -146,7 +109,7 @@
                                             <li>
                                                 <div class="row">
                                                     <div class="col-12 ">
-                                                        <div class="accordions " id="@accordion" role="tablist" aria-multiselectable="true">
+                                                        <div class="accordions " id="accordion0_@lesson.Id" role="tablist" aria-multiselectable="true">
                                                             <div class="panel single-accordion">
                                                                 <div class="view-all  " data-wow-delay="800ms">
 
@@ -154,7 +117,7 @@
 
                                                                     <h6>
                                                                         <span>
-                                                                            <a role="button" class="collapsed" aria-expanded="false" aria-controls="@collapse00" data-toggle="collapse" data-parent="#accordion" href="#@collapse00">
+                                                                            <a role="button" class="collapsed" aria-expanded="false" aria-controls="collapse00_@lesson.Id" data-toggle="collapse" data-parent="#accordion" href="#collapse00_@lesson.Id">
 
                                                                                 Pronunciation
                                                                                 <span class="accor-open"><i class="fa fa-plus" aria-hidden="true"></i></span>
@@ -163,56 +126,28 @@
                                                                         </span>
                                                                     </h6>
 
-                                                                    <div id="@collapse00" class="accordion-content collapse ">
+                                                                    <div id="collapse00_@lesson.Id" class="accordion-content collapse ">
                                                                         <ul>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Video
-                                                                                            </a>
-                                                                                        </span>
+                                                                            @foreach (var pronunciation in lesson.Pronunciations)
+                                                                            {
+                                                                                <li>
+                                                                                    <div class="border">
+                                                                                        <div class="ml-4 mt-2 mb-2">
+                                                                                            <span>
+                                                                                                <a href="/pronunciation/@pronunciation.Id">
+                                                                                                    <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
+                                                                                                </a>
+                                                                                            </span>
+                                                                                            <span class="ml-2">
+                                                                                                <a href="/pronunciation/@pronunciation.Id">
+                                                                                                    @pronunciation.Name
+                                                                                                </a>
+                                                                                            </span>
+                                                                                        </div>
                                                                                     </div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Phonetic
-                                                                                            </a>
-                                                                                        </span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </li>
-                                                                            <li>
-                                                                                <div class="border">
-                                                                                    <div class="ml-4 mt-2 mb-2">
-                                                                                        <span>
-                                                                                            <a href="#">
-                                                                                                <img src="/img/chitietkhoahoc/play.png" width="20px" height="20px" />
-                                                                                            </a>
-                                                                                        </span>
-                                                                                        <span class="ml-2">
-                                                                                            <a href="#">
-                                                                                                Audio
-                                                                                            </a>
-                                                                                        </span>
-                                                                                    </div>
-                                                                                </div>
-                                                                            </li>
+                                                                                </li>
+                                                                            }
+
                                                                         </ul>
                                                                     </div>
 
@@ -228,12 +163,11 @@
                                     </div>
                                 </div>
                             </div>
-                            i++;
                         }
 
 
                         <div class="view-all text-center wow fadeInUp" data-wow-delay="800ms">
-                            <a href="/question/test/@courseId" class="btn academy-btn">Test</a>
+                            <a href="/question/test/@ViewBag.CourseId" class="btn academy-btn">Test</a>
                         </div>
                     </div>
 
@@ -245,6 +179,7 @@
 
 
     </div>
+
 
 }
 

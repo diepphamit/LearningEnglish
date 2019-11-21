@@ -81,6 +81,20 @@ namespace LearningEnglish.BusinessLogic.Implementation
             return _context.Vocabularies.Include(x => x.Lesson).AsEnumerable();
         }
 
+        public async Task<List<Vocabulary>> GetVocabulariesByLessonId(int LessonId)
+        {
+            return await (from x in _context.Vocabularies
+                          where (x.LessonId == LessonId)
+                          select x).ToListAsync();
+
+
+        }
+
+        public async Task<Vocabulary> GetVocabularyById(int Id)
+        {
+            return await _context.Vocabularies.Include(x => x.Lesson).FirstOrDefaultAsync(x => x.Id == Id);
+        }
+
         public async Task<Vocabulary> GetVocabularyByIdAsync(int id)
         {
             return await _context.Vocabularies.FirstOrDefaultAsync(x => x.Id == id);

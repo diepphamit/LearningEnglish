@@ -1,0 +1,808 @@
+2019-11-20T17:37:30.9225955+07:00  [INF] Starting @angular/cli on port 53749... (c70aa3f6)
+2019-11-20T17:37:31.9959609+07:00 0HLRDKMIVC95S:00000001 [INF] Request starting HTTP/1.1 DEBUG http://localhost:62998/  0 (ca22a1cb)
+2019-11-20T17:37:31.9961377+07:00 0HLRDKMIVC95T:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/   (ca22a1cb)
+2019-11-20T17:37:32.1524273+07:00 0HLRDKMIVC95S:00000001 [INF] Request finished in 139.2569ms 200  (791a596a)
+2019-11-20T17:38:06.8334411+07:00  [INF] > client-app@0.0.0 start D:\TTCN_Web\LearningEnglish\LearningEnglish.Admin\ClientApp
+> ng serve "--port" "53749"
+
+i ´¢ówds´¢ú: Project is running at http://localhost:53749/webpack-dev-server/
+ (1c36ef42)
+2019-11-20T17:38:06.8385485+07:00  [INF] i ´¢ówds´¢ú: webpack output is served from /
+ (c22c6cd4)
+2019-11-20T17:38:19.6764763+07:00  [INF] i ´¢ówds´¢ú: 404s will fallback to //index.html
+
+ (f906d5ff)
+2019-11-20T17:38:19.6791471+07:00  [INF] chunk {default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d} default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js, default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js.map (default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d) 271 kB  [rendered]
+chunk {default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3} default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js, default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js.map (default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3) 32.9 kB  [rendered]
+chunk {main} main.js, main.js.map (main) 88.8 kB [initial] [rendered]
+chunk {pages-achievements-achievements-module} pages-achievements-achievements-module.js, pages-achievements-achievements-module.js.map (pages-achievements-achievements-module) 13.2 kB  [rendered]
+chunk {pages-answers-answers-module} pages-answers-answers-module.js, pages-answers-answers-module.js.map (pages-answers-answers-module) 31.7 kB  [rendered]
+chunk {pages-comments-comments-module} pages-comments-comments-module.js, pages-comments-comments-module.js.map (pages-comments-comments-module) 12.6 kB  [rendered]
+chunk {pages-courses-courses-module} pages-courses-courses-module.js, pages-courses-courses-module.js.map (pages-courses-courses-module) 29.6 kB  [rendered]
+chunk {pages-home-home-module} pages-home-home-module.js, pages-home-home-module.js.map (pages-home-home-module) 5.75 kB  [rendered]
+chunk {pages-lessons-lessons-module} pages-lessons-lessons-module.js, pages-lessons-lessons-module.js.map (pages-lessons-lessons-module) 33.4 kB  [rendered]
+chunk {pages-login-login-module} pages-login-login-module.js, pages-login-login-module.js.map (pages-login-login-module) 9.4 kB  [rendered]
+ (f6f8175f)
+2019-11-20T17:38:19.9092661+07:00  [INF] chunk {pages-pronunciations-pronunciations-module} pages-pronunciations-pronunciations-module.js, pages-pronunciations-pronunciations-module.js.map (pages-pronunciations-pronunciations-module) 33.6 kB  [rendered]
+chunk {pages-questions-questions-module} pages-questions-questions-module.js, pages-questions-questions-module.js.map (pages-questions-questions-module) 30.5 kB  [rendered]
+chunk {pages-usercourses-usercourses-module} pages-usercourses-usercourses-module.js, pages-usercourses-usercourses-module.js.map (pages-usercourses-usercourses-module) 14 kB  [rendered]
+chunk {pages-users-management-users-management-module} pages-users-management-users-management-module.js, pages-users-management-users-management-module.js.map (pages-users-management-users-management-module) 529 kB  [rendered]
+chunk {pages-vocabularies-vocabularies-module} pages-vocabularies-vocabularies-module.js, pages-vocabularies-vocabularies-module.js.map (pages-vocabularies-vocabularies-module) 32.9 kB  [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 290 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 10.2 kB [entry] [rendered]
+chunk {scripts} scripts.js, scripts.js.map (scripts) 384 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 1.63 MB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 4.71 MB [initial] [rendered]
+Date: 2019-11-20T10:38:19.658Z - Hash: 2df8df82b23d80ba19f5 - Time: 24446ms
+** Angular Live Development Server is listening on localhost:53749, open your browser on http://localhost:53749/ **
+i ´¢ówdm´¢ú: Compiled successfully.
+ (e02f9cdc)
+2019-11-20T17:38:23.7041327+07:00 0HLRDKMIVC95T:00000001 [INF] Request finished in 51696.491ms 200 text/html; charset=UTF-8 (791a596a)
+2019-11-20T17:38:23.7246819+07:00 0HLRDKMIVC95U:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/styles.js   (ca22a1cb)
+2019-11-20T17:38:23.7377637+07:00 0HLRDKMIVC960:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/vendor.js   (ca22a1cb)
+2019-11-20T17:38:23.7388947+07:00 0HLRDKMIVC95V:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/scripts.js   (ca22a1cb)
+2019-11-20T17:38:23.7444985+07:00 0HLRDKMIVC960:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:23.7508528+07:00 0HLRDKMIVC95U:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:23.7533061+07:00 0HLRDKMIVC960:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:23.7544126+07:00 0HLRDKMIVC95U:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:23.8156150+07:00 0HLRDKMIVC961:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/main.js   (ca22a1cb)
+2019-11-20T17:38:23.8190813+07:00 0HLRDKMIVC961:00000001 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:23.8227647+07:00 0HLRDKMIVC961:00000001 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:23.8303996+07:00 0HLRDKMIVC95T:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/polyfills.js   (ca22a1cb)
+2019-11-20T17:38:23.8340016+07:00 0HLRDKMIVC95T:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:23.8383195+07:00 0HLRDKMIVC95T:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:23.8487261+07:00 0HLRDKMIVC95S:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/runtime.js   (ca22a1cb)
+2019-11-20T17:38:23.8580399+07:00 0HLRDKMIVC95S:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:23.8604515+07:00 0HLRDKMIVC95S:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:23.9053533+07:00 0HLRDKMIVC95U:00000001 [INF] Request finished in 179.6767ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:24.9673011+07:00 0HLRDKMIVC95S:00000002 [INF] Request finished in 1060.2219ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:24.9713280+07:00 0HLRDKMIVC961:00000001 [INF] Request finished in 1118.3676ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:24.9737904+07:00 0HLRDKMIVC95T:00000002 [INF] Request finished in 1099.7796ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:25.0022224+07:00 0HLRDKMIVC95V:00000001 [INF] Request finished in 1254.2758ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:25.1905013+07:00 0HLRDKMIVC960:00000001 [INF] Request finished in 1455.8835ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:26.0323626+07:00 0HLRDKMIVC95U:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~6b381b8d.js   (ca22a1cb)
+2019-11-20T17:38:26.0324598+07:00 0HLRDKMIVC95S:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-login-login-module.js   (ca22a1cb)
+2019-11-20T17:38:26.0436002+07:00 0HLRDKMIVC961:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/sockjs-node/info?t=1574246306017   (ca22a1cb)
+2019-11-20T17:38:26.0592563+07:00 0HLRDKMIVC95S:00000003 [INF] Request finished in 27.4099ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:26.0970672+07:00 0HLRDKMIVC95U:00000002 [INF] Request finished in 78.6124ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:26.1297731+07:00 0HLRDKMIVC961:00000002 [INF] Request finished in 84.1333ms 200 application/json; charset=UTF-8 (791a596a)
+2019-11-20T17:38:26.2152390+07:00 0HLRDKMIVC95T:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/sockjs-node/233/kgen10jc/websocket   (ca22a1cb)
+2019-11-20T17:38:26.2198823+07:00 0HLRDKMIVC95T:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:26.2229352+07:00 0HLRDKMIVC95T:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:26.2849986+07:00 0HLRDKMIVC95V:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/glyphicons-halflings-regular.woff2   (ca22a1cb)
+2019-11-20T17:38:26.2900838+07:00 0HLRDKMIVC95V:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:26.2940016+07:00 0HLRDKMIVC95V:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:26.3128762+07:00 0HLRDKMIVC95V:00000002 [INF] Request finished in 39.6882ms 200 font/woff2; charset=UTF-8 (791a596a)
+2019-11-20T17:38:46.4231412+07:00 0HLRDKMIVC960:00000002 [INF] Request starting HTTP/1.1 POST http://localhost:44327/api/auth/login application/json 41 (ca22a1cb)
+2019-11-20T17:38:46.4264680+07:00 0HLRDKMIVC960:00000002 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:46.4302724+07:00 0HLRDKMIVC960:00000002 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:46.7374703+07:00 0HLRDKMIVC960:00000002 [INF] Failed to validate the token. (616bef97)
+Microsoft.IdentityModel.Tokens.SecurityTokenExpiredException: IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateTokenPayload(JwtSecurityToken jwtToken, TokenValidationParameters validationParameters)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.ValidateToken(String token, TokenValidationParameters validationParameters, SecurityToken& validatedToken)
+   at Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler.HandleAuthenticateAsync()
+2019-11-20T17:38:46.7408979+07:00 0HLRDKMIVC960:00000002 [INF] "Bearer" was not authenticated. Failure message: "IDX10223: Lifetime validation failed. The token is expired. ValidTo: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]', Current time: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'." (48071232)
+2019-11-20T17:38:46.7451401+07:00 0HLRDKMIVC960:00000002 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:38:46.8322133+07:00 0HLRDKMIVC960:00000002 [INF] Route matched with "{action = \"Login\", controller = \"Auth\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LearningEnglish.BusinessLogic.Dtos.User.UserForLoginDto)" on controller "LearningEnglish.Admin.Controllers.AuthController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:38:47.4742405+07:00 0HLRDKMIVC960:00000002 [INF] Executing action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:38:47.5086337+07:00 0HLRDKMIVC960:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:38:47.6132772+07:00 0HLRDKMIVC960:00000002 [INF] Executed DbCommand ("19"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Address], [u].[ConcurrencyStamp], [u].[DateOfBirth], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[Gender], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-11-20T17:38:47.7535562+07:00 0HLRDKMIVC960:00000002 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-20T17:38:47.8741452+07:00 0HLRDKMIVC960:00000002 [INF] Executed DbCommand ("2"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[AccessFailedCount], [x].[Address], [x].[ConcurrencyStamp], [x].[DateOfBirth], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[Gender], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[NormalizedUserName] = @__ToLower_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-11-20T17:38:47.8907950+07:00 0HLRDKMIVC960:00000002 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserRoles].[UserId], [x.UserRoles].[RoleId]
+FROM [AspNetUserRoles] AS [x.UserRoles]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [AspNetUsers] AS [x0]
+    WHERE [x0].[NormalizedUserName] = @__ToLower_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.UserRoles].[UserId] = [t].[Id]
+ORDER BY [t].[Id]" (0723d8ff)
+2019-11-20T17:38:47.9362529+07:00 0HLRDKMIVC960:00000002 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-20T17:38:47.9887155+07:00 0HLRDKMIVC960:00000002 [INF] Executed action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 500.9903ms. (50a9e262)
+2019-11-20T17:38:48.0110325+07:00 0HLRDKMIVC960:00000002 [INF] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LearningEnglish.BusinessLogic.Dtos.User.UserForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:38:48.0875329+07:00 0HLRDKMIVC960:00000002 [INF] Executed action "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" in 1199.6452ms (afa2e885)
+2019-11-20T17:38:48.0997198+07:00 0HLRDKMIVC960:00000002 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:38:48.1046557+07:00 0HLRDKMIVC960:00000002 [INF] Request finished in 1678.9581ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:38:48.1291691+07:00 0HLRDKMIVC95S:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-home-home-module.js   (ca22a1cb)
+2019-11-20T17:38:49.1508754+07:00 0HLRDKMIVC95S:00000004 [INF] Request finished in 1019.3878ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:49.2581379+07:00 0HLRDKMIVC95U:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/assets/img/user2-160x160.jpg   (ca22a1cb)
+2019-11-20T17:38:49.2660069+07:00 0HLRDKMIVC95U:00000003 [INF] Request finished in 6.426ms 200 image/jpeg; charset=UTF-8 (791a596a)
+2019-11-20T17:38:49.2992596+07:00 0HLRDKMIVC961:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/fontawesome-webfont.woff2?v=4.7.0   (ca22a1cb)
+2019-11-20T17:38:49.3061389+07:00 0HLRDKMIVC961:00000003 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:38:49.3104741+07:00 0HLRDKMIVC961:00000003 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:38:49.3415836+07:00 0HLRDKMIVC961:00000003 [INF] Request finished in 38.2248ms 200 font/woff2; charset=UTF-8 (791a596a)
+2019-11-20T17:38:52.7343140+07:00 0HLRDKMIVC95V:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/default~pages-achievements-achievements-module~pages-answers-answers-module~pages-comments-comments-~c5ef06b3.js   (ca22a1cb)
+2019-11-20T17:38:52.7367097+07:00 0HLRDKMIVC960:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-usercourses-usercourses-module.js   (ca22a1cb)
+2019-11-20T17:38:52.7521132+07:00 0HLRDKMIVC95V:00000003 [INF] Request finished in 11.8133ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:53.7779768+07:00 0HLRDKMIVC960:00000003 [INF] Request finished in 1035.1343ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:38:53.9255832+07:00 0HLRDKMIVC95S:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:38:53.9293010+07:00 0HLRDKMIVC95U:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/UserCourses?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:38:53.9546591+07:00 0HLRDKMIVC95S:00000005 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:38:53.9567420+07:00 0HLRDKMIVC95U:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:38:53.9658864+07:00 0HLRDKMIVC95U:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.UserCoursesController.GetAllUserCourses (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:38:53.9683084+07:00 0HLRDKMIVC95S:00000005 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:38:53.9746618+07:00 0HLRDKMIVC95S:00000005 [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:38:53.9779597+07:00 0HLRDKMIVC95U:00000004 [INF] Route matched with "{action = \"GetAllUserCourses\", controller = \"UserCourses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllUserCourses(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.UserCoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:38:53.9873547+07:00 0HLRDKMIVC95U:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.UserCoursesController.GetAllUserCourses (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:38:53.9993724+07:00 0HLRDKMIVC95S:00000005 [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:38:54.0021491+07:00 0HLRDKMIVC95U:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:38:54.0058082+07:00 0HLRDKMIVC95S:00000005 [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:38:54.0364341+07:00 0HLRDKMIVC95S:00000005 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:38:54.0515112+07:00 0HLRDKMIVC95S:00000005 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:38:54.0638633+07:00 0HLRDKMIVC95U:00000004 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [userCourse].[Id], [user].[UserName], [course].[Name] AS [CourseName]
+FROM [AspNetUsers] AS [user]
+CROSS JOIN [UserCourses] AS [userCourse]
+CROSS JOIN [Courses] AS [course]
+WHERE ([user].[Id] = [userCourse].[UserId]) AND ([course].[Id] = [userCourse].[CourseId])
+ORDER BY [userCourse].[Id]" (0723d8ff)
+2019-11-20T17:38:54.0749833+07:00 0HLRDKMIVC95U:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.UserCoursesController.GetAllUserCourses (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 84.7884ms. (50a9e262)
+2019-11-20T17:38:54.0784541+07:00 0HLRDKMIVC95U:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.UserCourse.UserCourseForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:38:54.0832191+07:00 0HLRDKMIVC95S:00000005 [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 74.5213ms. (50a9e262)
+2019-11-20T17:38:54.0863004+07:00 0HLRDKMIVC95S:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:38:54.0939866+07:00 0HLRDKMIVC95S:00000005 [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 116.7763ms (afa2e885)
+2019-11-20T17:38:54.0967009+07:00 0HLRDKMIVC95S:00000005 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:38:54.1057060+07:00 0HLRDKMIVC95S:00000005 [INF] Request finished in 174.4422ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:38:54.1072565+07:00 0HLRDKMIVC95U:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.UserCoursesController.GetAllUserCourses (LearningEnglish.Admin)" in 123.0663ms (afa2e885)
+2019-11-20T17:38:54.1111342+07:00 0HLRDKMIVC95U:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.UserCoursesController.GetAllUserCourses (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:38:54.1278688+07:00 0HLRDKMIVC95U:00000004 [INF] Request finished in 185.6219ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:39:41.3956571+07:00 0HLRDKMIVC961:00000004 [INF] Request starting HTTP/1.1 POST http://localhost:44327/api/auth/login application/json 43 (ca22a1cb)
+2019-11-20T17:39:41.3985725+07:00 0HLRDKMIVC961:00000004 [WRN] The CORS protocol does not allow specifying a wildcard (any) origin and credentials at the same time. Configure the policy by listing individual origins if credentials needs to be supported. (6e5ffae2)
+2019-11-20T17:39:41.4009291+07:00 0HLRDKMIVC961:00000004 [INF] CORS policy execution successful. (5409d6ef)
+2019-11-20T17:39:41.4035376+07:00 0HLRDKMIVC961:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:39:41.4059555+07:00 0HLRDKMIVC961:00000004 [INF] Route matched with "{action = \"Login\", controller = \"Auth\", page = \"\"}". Executing controller action with signature "System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(LearningEnglish.BusinessLogic.Dtos.User.UserForLoginDto)" on controller "LearningEnglish.Admin.Controllers.AuthController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:39:41.4090834+07:00 0HLRDKMIVC961:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:39:41.4119748+07:00 0HLRDKMIVC961:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:39:41.4192003+07:00 0HLRDKMIVC961:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__normalizedUserName_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [u].[Id], [u].[AccessFailedCount], [u].[Address], [u].[ConcurrencyStamp], [u].[DateOfBirth], [u].[Email], [u].[EmailConfirmed], [u].[FullName], [u].[Gender], [u].[LockoutEnabled], [u].[LockoutEnd], [u].[NormalizedEmail], [u].[NormalizedUserName], [u].[PasswordHash], [u].[PhoneNumber], [u].[PhoneNumberConfirmed], [u].[SecurityStamp], [u].[TwoFactorEnabled], [u].[UserName]
+FROM [AspNetUsers] AS [u]
+WHERE [u].[NormalizedUserName] = @__normalizedUserName_0" (0723d8ff)
+2019-11-20T17:39:41.4280806+07:00 0HLRDKMIVC961:00000004 [INF] Executed DbCommand ("4"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-20T17:39:41.4524647+07:00 0HLRDKMIVC961:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT TOP(1) [x].[Id], [x].[AccessFailedCount], [x].[Address], [x].[ConcurrencyStamp], [x].[DateOfBirth], [x].[Email], [x].[EmailConfirmed], [x].[FullName], [x].[Gender], [x].[LockoutEnabled], [x].[LockoutEnd], [x].[NormalizedEmail], [x].[NormalizedUserName], [x].[PasswordHash], [x].[PhoneNumber], [x].[PhoneNumberConfirmed], [x].[SecurityStamp], [x].[TwoFactorEnabled], [x].[UserName]
+FROM [AspNetUsers] AS [x]
+WHERE [x].[NormalizedUserName] = @__ToLower_0
+ORDER BY [x].[Id]" (0723d8ff)
+2019-11-20T17:39:41.4582878+07:00 0HLRDKMIVC961:00000004 [INF] Executed DbCommand ("3"ms) [Parameters=["@__ToLower_0='?' (Size = 256)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [x.UserRoles].[UserId], [x.UserRoles].[RoleId]
+FROM [AspNetUserRoles] AS [x.UserRoles]
+INNER JOIN (
+    SELECT TOP(1) [x0].[Id]
+    FROM [AspNetUsers] AS [x0]
+    WHERE [x0].[NormalizedUserName] = @__ToLower_0
+    ORDER BY [x0].[Id]
+) AS [t] ON [x.UserRoles].[UserId] = [t].[Id]
+ORDER BY [t].[Id]" (0723d8ff)
+2019-11-20T17:39:41.4648984+07:00 0HLRDKMIVC961:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=["@__userId_0='?' (DbType = Int32)"], CommandType='Text', CommandTimeout='30']"
+""SELECT [role].[Name]
+FROM [AspNetUserRoles] AS [userRole]
+INNER JOIN [AspNetRoles] AS [role] ON [userRole].[RoleId] = [role].[Id]
+WHERE [userRole].[UserId] = @__userId_0" (0723d8ff)
+2019-11-20T17:39:41.4672664+07:00 0HLRDKMIVC961:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 56.2888ms. (50a9e262)
+2019-11-20T17:39:41.4701398+07:00 0HLRDKMIVC961:00000004 [INF] Executing ObjectResult, writing value of type '"<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[LearningEnglish.BusinessLogic.Dtos.User.UserForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:39:41.4731799+07:00 0HLRDKMIVC961:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)" in 64.4555ms (afa2e885)
+2019-11-20T17:39:41.4760915+07:00 0HLRDKMIVC961:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AuthController.Login (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:39:41.4821288+07:00 0HLRDKMIVC961:00000004 [INF] Request finished in 83.9487ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:39:43.9286340+07:00 0HLRDKMIVC95V:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-courses-courses-module.js   (ca22a1cb)
+2019-11-20T17:39:44.9520943+07:00 0HLRDKMIVC95V:00000004 [INF] Request finished in 1021.5387ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:39:45.0670277+07:00 0HLRDKMIVC960:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:39:45.0695472+07:00 0HLRDKMIVC960:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:39:45.0731792+07:00 0HLRDKMIVC960:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:39:45.0833479+07:00 0HLRDKMIVC960:00000004 [INF] Route matched with "{action = \"GetAllCourses\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:39:45.0874072+07:00 0HLRDKMIVC960:00000004 [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:39:45.0921647+07:00 0HLRDKMIVC960:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:39:45.0956687+07:00 0HLRDKMIVC960:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:39:45.0996253+07:00 0HLRDKMIVC960:00000004 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:39:45.1085434+07:00 0HLRDKMIVC960:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:39:45.1118327+07:00 0HLRDKMIVC960:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 17.8374ms. (50a9e262)
+2019-11-20T17:39:45.1138890+07:00 0HLRDKMIVC960:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:39:45.1205931+07:00 0HLRDKMIVC960:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)" in 34.3399ms (afa2e885)
+2019-11-20T17:39:45.1225627+07:00 0HLRDKMIVC960:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:39:45.1260477+07:00 0HLRDKMIVC960:00000004 [INF] Request finished in 58.7318ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:12.6738354+07:00 0HLRDKMIVC962:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-lessons-lessons-module.js   (ca22a1cb)
+2019-11-20T17:46:13.7151972+07:00 0HLRDKMIVC962:00000001 [INF] Request finished in 1033.614ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:13.8921721+07:00 0HLRDKMIVC962:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:13.8943611+07:00 0HLRDKMIVC963:00000001 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:13.9007526+07:00 0HLRDKMIVC962:00000002 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:13.9063324+07:00 0HLRDKMIVC963:00000001 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:13.9085894+07:00 0HLRDKMIVC962:00000002 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:13.9107269+07:00 0HLRDKMIVC963:00000001 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:13.9124708+07:00 0HLRDKMIVC962:00000002 [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:13.9142066+07:00 0HLRDKMIVC962:00000002 [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:13.9162437+07:00 0HLRDKMIVC962:00000002 [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:13.9199075+07:00 0HLRDKMIVC962:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:13.9212774+07:00 0HLRDKMIVC963:00000001 [INF] Route matched with "{action = \"GetAllLessons\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessons(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:13.9239645+07:00 0HLRDKMIVC963:00000001 [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:13.9350446+07:00 0HLRDKMIVC963:00000001 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:14.0296950+07:00 0HLRDKMIVC962:00000002 [INF] Executed DbCommand ("9"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:14.0379223+07:00 0HLRDKMIVC962:00000002 [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 114.3952ms. (50a9e262)
+2019-11-20T17:46:14.0406003+07:00 0HLRDKMIVC963:00000001 [INF] Executed DbCommand ("13"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:14.0422528+07:00 0HLRDKMIVC962:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:14.0458214+07:00 0HLRDKMIVC962:00000002 [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 129.954ms (afa2e885)
+2019-11-20T17:46:14.0488851+07:00 0HLRDKMIVC962:00000002 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:14.0540223+07:00 0HLRDKMIVC962:00000002 [INF] Request finished in 164.8293ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:14.0982938+07:00 0HLRDKMIVC963:00000001 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:14.1012376+07:00 0HLRDKMIVC963:00000001 [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 175.6548ms. (50a9e262)
+2019-11-20T17:46:14.1032585+07:00 0HLRDKMIVC963:00000001 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:14.1102548+07:00 0HLRDKMIVC963:00000001 [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" in 186.9157ms (afa2e885)
+2019-11-20T17:46:14.1121096+07:00 0HLRDKMIVC963:00000001 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:14.1147726+07:00 0HLRDKMIVC963:00000001 [INF] Request finished in 220.1693ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:14.6685095+07:00 0HLRDKMIVC962:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-vocabularies-vocabularies-module.js   (ca22a1cb)
+2019-11-20T17:46:14.6803060+07:00 0HLRDKMIVC962:00000003 [INF] Request finished in 6.8432ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:14.8124180+07:00 0HLRDKMIVC963:00000002 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:14.8135153+07:00 0HLRDKMIVC962:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Vocabularies?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:14.8164072+07:00 0HLRDKMIVC963:00000002 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:14.8187900+07:00 0HLRDKMIVC962:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:14.8233587+07:00 0HLRDKMIVC963:00000002 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:14.8262460+07:00 0HLRDKMIVC962:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:14.8304649+07:00 0HLRDKMIVC963:00000002 [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:14.8334695+07:00 0HLRDKMIVC963:00000002 [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:14.8363497+07:00 0HLRDKMIVC962:00000004 [INF] Route matched with "{action = \"GetAllVocabularies\", controller = \"Vocabularies\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllVocabularies(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.VocabulariesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:14.8396518+07:00 0HLRDKMIVC962:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:14.8422106+07:00 0HLRDKMIVC963:00000002 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:14.8494766+07:00 0HLRDKMIVC962:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:14.8539089+07:00 0HLRDKMIVC963:00000002 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:14.8577131+07:00 0HLRDKMIVC963:00000002 [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.6356ms. (50a9e262)
+2019-11-20T17:46:14.8603469+07:00 0HLRDKMIVC963:00000002 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:14.8671630+07:00 0HLRDKMIVC963:00000002 [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 34.2008ms (afa2e885)
+2019-11-20T17:46:14.8700663+07:00 0HLRDKMIVC963:00000002 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:14.8733373+07:00 0HLRDKMIVC963:00000002 [INF] Request finished in 62.7283ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:14.8983844+07:00 0HLRDKMIVC962:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:14.9359070+07:00 0HLRDKMIVC962:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:14.9402470+07:00 0HLRDKMIVC962:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 98.3027ms. (50a9e262)
+2019-11-20T17:46:14.9426682+07:00 0HLRDKMIVC962:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Vocabulary.VocabularyForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:14.9523237+07:00 0HLRDKMIVC962:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" in 113.0096ms (afa2e885)
+2019-11-20T17:46:14.9547851+07:00 0HLRDKMIVC962:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:14.9581447+07:00 0HLRDKMIVC962:00000004 [INF] Request finished in 145.9951ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:15.4932714+07:00 0HLRDKMIVC963:00000003 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-pronunciations-pronunciations-module.js   (ca22a1cb)
+2019-11-20T17:46:15.5040503+07:00 0HLRDKMIVC963:00000003 [INF] Request finished in 5.4509ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:15.6164643+07:00 0HLRDKMIVC962:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:15.6184255+07:00 0HLRDKMIVC963:00000004 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Pronunciations?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:15.6215675+07:00 0HLRDKMIVC962:00000005 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:15.6229833+07:00 0HLRDKMIVC963:00000004 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:15.6274580+07:00 0HLRDKMIVC962:00000005 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:15.6287589+07:00 0HLRDKMIVC963:00000004 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:15.6306414+07:00 0HLRDKMIVC962:00000005 [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:15.6336843+07:00 0HLRDKMIVC962:00000005 [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:15.6377866+07:00 0HLRDKMIVC962:00000005 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:15.6410228+07:00 0HLRDKMIVC962:00000005 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:15.6437305+07:00 0HLRDKMIVC962:00000005 [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.7994ms. (50a9e262)
+2019-11-20T17:46:15.6466166+07:00 0HLRDKMIVC962:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:15.6490481+07:00 0HLRDKMIVC963:00000004 [INF] Route matched with "{action = \"GetAllPronunciations\", controller = \"Pronunciations\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPronunciations(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.PronunciationsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:15.6532885+07:00 0HLRDKMIVC962:00000005 [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 16.0858ms (afa2e885)
+2019-11-20T17:46:15.6564198+07:00 0HLRDKMIVC962:00000005 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:15.6597624+07:00 0HLRDKMIVC963:00000004 [INF] Executing action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:15.6611630+07:00 0HLRDKMIVC962:00000005 [INF] Request finished in 45.4803ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:15.6728453+07:00 0HLRDKMIVC963:00000004 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:15.7040339+07:00 0HLRDKMIVC963:00000004 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:15.7267655+07:00 0HLRDKMIVC963:00000004 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:15.7301512+07:00 0HLRDKMIVC963:00000004 [INF] Executed action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 68.4212ms. (50a9e262)
+2019-11-20T17:46:15.7329000+07:00 0HLRDKMIVC963:00000004 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Pronunciation.PronunciationForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:15.7415729+07:00 0HLRDKMIVC963:00000004 [INF] Executed action "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" in 89.2984ms (afa2e885)
+2019-11-20T17:46:15.7442613+07:00 0HLRDKMIVC963:00000004 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:15.7484729+07:00 0HLRDKMIVC963:00000004 [INF] Request finished in 132.2216ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:16.2447772+07:00 0HLRDKMIVC962:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-questions-questions-module.js   (ca22a1cb)
+2019-11-20T17:46:16.2508120+07:00 0HLRDKMIVC962:00000006 [INF] Request finished in 5.2218ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:16.3725895+07:00 0HLRDKMIVC963:00000005 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:16.3751366+07:00 0HLRDKMIVC962:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:16.3799857+07:00 0HLRDKMIVC963:00000005 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:16.3875450+07:00 0HLRDKMIVC962:00000007 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:16.3912558+07:00 0HLRDKMIVC963:00000005 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:16.3938784+07:00 0HLRDKMIVC962:00000007 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:16.3952514+07:00 0HLRDKMIVC963:00000005 [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:16.3984371+07:00 0HLRDKMIVC963:00000005 [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:16.4028826+07:00 0HLRDKMIVC963:00000005 [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:16.4041607+07:00 0HLRDKMIVC962:00000007 [INF] Route matched with "{action = \"GetAllQuestions\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestions(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:16.4062696+07:00 0HLRDKMIVC963:00000005 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:16.4101800+07:00 0HLRDKMIVC962:00000007 [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:16.4117737+07:00 0HLRDKMIVC963:00000005 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:16.4146343+07:00 0HLRDKMIVC963:00000005 [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 9.1392ms. (50a9e262)
+2019-11-20T17:46:16.4184959+07:00 0HLRDKMIVC963:00000005 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:16.4218715+07:00 0HLRDKMIVC963:00000005 [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 23.3234ms (afa2e885)
+2019-11-20T17:46:16.4248466+07:00 0HLRDKMIVC963:00000005 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:16.4379618+07:00 0HLRDKMIVC963:00000005 [INF] Request finished in 60.5461ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:16.4433324+07:00 0HLRDKMIVC962:00000007 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:16.4724608+07:00 0HLRDKMIVC962:00000007 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:16.4936222+07:00 0HLRDKMIVC962:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:16.4964705+07:00 0HLRDKMIVC962:00000007 [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 84.4232ms. (50a9e262)
+2019-11-20T17:46:16.4984806+07:00 0HLRDKMIVC962:00000007 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:16.5054887+07:00 0HLRDKMIVC962:00000007 [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" in 97.9352ms (afa2e885)
+2019-11-20T17:46:16.5075437+07:00 0HLRDKMIVC962:00000007 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:16.5103514+07:00 0HLRDKMIVC962:00000007 [INF] Request finished in 141.6097ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:17.2861227+07:00 0HLRDKMIVC963:00000006 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-answers-answers-module.js   (ca22a1cb)
+2019-11-20T17:46:17.2976293+07:00 0HLRDKMIVC963:00000006 [INF] Request finished in 11.9174ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:17.4421926+07:00 0HLRDKMIVC962:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions/GetAllQuestionName   (ca22a1cb)
+2019-11-20T17:46:17.4504663+07:00 0HLRDKMIVC963:00000007 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Answers?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:17.4505240+07:00 0HLRDKMIVC962:00000008 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:17.4566117+07:00 0HLRDKMIVC962:00000008 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:17.4577558+07:00 0HLRDKMIVC963:00000007 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:17.4599979+07:00 0HLRDKMIVC963:00000007 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:17.4631218+07:00 0HLRDKMIVC962:00000008 [INF] Route matched with "{action = \"GetAllQuestionName\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestionName()" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:17.4684644+07:00 0HLRDKMIVC962:00000008 [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:17.4698061+07:00 0HLRDKMIVC963:00000007 [INF] Route matched with "{action = \"GetAllAnswers\", controller = \"Answers\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllAnswers(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.AnswersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:17.4725784+07:00 0HLRDKMIVC963:00000007 [INF] Executing action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:17.4746037+07:00 0HLRDKMIVC962:00000008 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:17.4800188+07:00 0HLRDKMIVC963:00000007 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:17.4854716+07:00 0HLRDKMIVC962:00000008 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:17.4883812+07:00 0HLRDKMIVC962:00000008 [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.0026ms. (50a9e262)
+2019-11-20T17:46:17.4907786+07:00 0HLRDKMIVC962:00000008 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:17.4962627+07:00 0HLRDKMIVC962:00000008 [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" in 30.3409ms (afa2e885)
+2019-11-20T17:46:17.4984475+07:00 0HLRDKMIVC962:00000008 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:17.5032174+07:00 0HLRDKMIVC962:00000008 [INF] Request finished in 59.8478ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:17.5189373+07:00 0HLRDKMIVC963:00000007 [INF] Executed DbCommand ("5"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:17.5431427+07:00 0HLRDKMIVC963:00000007 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:17.5463426+07:00 0HLRDKMIVC963:00000007 [INF] Executed action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 71.0115ms. (50a9e262)
+2019-11-20T17:46:17.5504618+07:00 0HLRDKMIVC963:00000007 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Answer.AnswerForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:17.5616924+07:00 0HLRDKMIVC963:00000007 [INF] Executed action "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" in 87.9939ms (afa2e885)
+2019-11-20T17:46:17.5640311+07:00 0HLRDKMIVC963:00000007 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:17.5713164+07:00 0HLRDKMIVC963:00000007 [INF] Request finished in 122.4181ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:17.7692346+07:00 0HLRDKMIVC962:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44327/pages-achievements-achievements-module.js   (ca22a1cb)
+2019-11-20T17:46:17.7845881+07:00 0HLRDKMIVC962:00000009 [INF] Request finished in 7.1219ms 200 application/javascript; charset=UTF-8 (791a596a)
+2019-11-20T17:46:17.8233727+07:00 0HLRDKMIVC963:00000008 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Achievements?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:17.8262925+07:00 0HLRDKMIVC963:00000008 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:17.8316324+07:00 0HLRDKMIVC963:00000008 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:17.8386913+07:00 0HLRDKMIVC963:00000008 [INF] Route matched with "{action = \"GetAllAchievements\", controller = \"Achievements\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllAchievements(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.AchievementsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:17.8415546+07:00 0HLRDKMIVC963:00000008 [INF] Executing action method "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:17.8501164+07:00 0HLRDKMIVC963:00000008 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:17.8761439+07:00 0HLRDKMIVC963:00000008 [INF] Executed DbCommand ("8"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ach].[Id], [ach].[Point], [ach].[TestDate], [user].[UserName], [course].[Name] AS [CourseName]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [UserCourses] AS [userCourse] ON [user].[Id] = [userCourse].[UserId]
+INNER JOIN [Courses] AS [course] ON [userCourse].[CourseId] = [course].[Id]
+INNER JOIN [Achievements] AS [ach] ON [course].[Id] = [ach].[CourseId]
+WHERE [ach].[UserId] = [user].[Id]
+ORDER BY [user].[Id]" (0723d8ff)
+2019-11-20T17:46:17.8872890+07:00 0HLRDKMIVC963:00000008 [INF] Executed action method "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 43.6779ms. (50a9e262)
+2019-11-20T17:46:17.8893021+07:00 0HLRDKMIVC963:00000008 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Achievement.AchievementForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:17.9029774+07:00 0HLRDKMIVC963:00000008 [INF] Executed action "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)" in 61.7188ms (afa2e885)
+2019-11-20T17:46:17.9050635+07:00 0HLRDKMIVC963:00000008 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:17.9082386+07:00 0HLRDKMIVC963:00000008 [INF] Request finished in 84.5475ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:18.4652745+07:00 0HLRDKMIVC963:00000009 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions/GetAllQuestionName   (ca22a1cb)
+2019-11-20T17:46:18.4687509+07:00 0HLRDKMIVC962:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Answers?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:18.4700142+07:00 0HLRDKMIVC963:00000009 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:18.4762336+07:00 0HLRDKMIVC962:0000000A [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:18.4783257+07:00 0HLRDKMIVC963:00000009 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:18.4801165+07:00 0HLRDKMIVC962:0000000A [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:18.4851638+07:00 0HLRDKMIVC963:00000009 [INF] Route matched with "{action = \"GetAllQuestionName\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestionName()" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:18.4873706+07:00 0HLRDKMIVC962:0000000A [INF] Route matched with "{action = \"GetAllAnswers\", controller = \"Answers\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllAnswers(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.AnswersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:18.4885609+07:00 0HLRDKMIVC963:00000009 [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:18.4906902+07:00 0HLRDKMIVC962:0000000A [INF] Executing action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:18.4940972+07:00 0HLRDKMIVC963:00000009 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:18.4956909+07:00 0HLRDKMIVC962:0000000A [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:18.5002729+07:00 0HLRDKMIVC962:0000000A [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:18.5014934+07:00 0HLRDKMIVC963:00000009 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:18.5048920+07:00 0HLRDKMIVC963:00000009 [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 13.2743ms. (50a9e262)
+2019-11-20T17:46:18.5070248+07:00 0HLRDKMIVC962:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:18.5091959+07:00 0HLRDKMIVC963:00000009 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:18.5110155+07:00 0HLRDKMIVC962:0000000A [INF] Executed action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 16.6767ms. (50a9e262)
+2019-11-20T17:46:18.5131600+07:00 0HLRDKMIVC963:00000009 [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" in 24.1947ms (afa2e885)
+2019-11-20T17:46:18.5158203+07:00 0HLRDKMIVC962:0000000A [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Answer.AnswerForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:18.5177125+07:00 0HLRDKMIVC963:00000009 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:18.5189757+07:00 0HLRDKMIVC962:0000000A [INF] Executed action "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" in 28.6653ms (afa2e885)
+2019-11-20T17:46:18.5217270+07:00 0HLRDKMIVC963:00000009 [INF] Request finished in 59.0314ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:18.5243326+07:00 0HLRDKMIVC962:0000000A [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:18.5333125+07:00 0HLRDKMIVC962:0000000A [INF] Request finished in 65.6354ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:18.8535049+07:00 0HLRDKMIVC963:0000000A [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:18.8590072+07:00 0HLRDKMIVC962:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:18.8609349+07:00 0HLRDKMIVC963:0000000A [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:18.8666522+07:00 0HLRDKMIVC962:0000000B [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:18.8706649+07:00 0HLRDKMIVC963:0000000A [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:18.8732564+07:00 0HLRDKMIVC962:0000000B [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:18.8775720+07:00 0HLRDKMIVC963:0000000A [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:18.8812145+07:00 0HLRDKMIVC962:0000000B [INF] Route matched with "{action = \"GetAllQuestions\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestions(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:18.8826899+07:00 0HLRDKMIVC963:0000000A [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:18.8859150+07:00 0HLRDKMIVC962:0000000B [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:18.8872363+07:00 0HLRDKMIVC963:0000000A [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:18.8895627+07:00 0HLRDKMIVC962:0000000B [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:18.8924020+07:00 0HLRDKMIVC963:0000000A [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:18.8960945+07:00 0HLRDKMIVC962:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:18.8976391+07:00 0HLRDKMIVC963:0000000A [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:18.9022225+07:00 0HLRDKMIVC963:0000000A [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.7074ms. (50a9e262)
+2019-11-20T17:46:18.9042978+07:00 0HLRDKMIVC962:0000000B [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:18.9064886+07:00 0HLRDKMIVC963:0000000A [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:18.9087402+07:00 0HLRDKMIVC962:0000000B [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 18.5378ms. (50a9e262)
+2019-11-20T17:46:18.9112555+07:00 0HLRDKMIVC963:0000000A [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 29.0013ms (afa2e885)
+2019-11-20T17:46:18.9124576+07:00 0HLRDKMIVC962:0000000B [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:18.9154065+07:00 0HLRDKMIVC963:0000000A [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:18.9236247+07:00 0HLRDKMIVC962:0000000B [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" in 32.0908ms (afa2e885)
+2019-11-20T17:46:18.9258692+07:00 0HLRDKMIVC963:0000000A [INF] Request finished in 85.2048ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:18.9272418+07:00 0HLRDKMIVC962:0000000B [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:18.9445941+07:00 0HLRDKMIVC962:0000000B [INF] Request finished in 73.8893ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.2251278+07:00 0HLRDKMIVC963:0000000B [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:19.2287415+07:00 0HLRDKMIVC962:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Pronunciations?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:19.2330791+07:00 0HLRDKMIVC963:0000000B [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.2360229+07:00 0HLRDKMIVC962:0000000C [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.2388453+07:00 0HLRDKMIVC963:0000000B [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.2400018+07:00 0HLRDKMIVC962:0000000C [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.2420290+07:00 0HLRDKMIVC963:0000000B [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.2451398+07:00 0HLRDKMIVC962:0000000C [INF] Route matched with "{action = \"GetAllPronunciations\", controller = \"Pronunciations\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPronunciations(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.PronunciationsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.2463489+07:00 0HLRDKMIVC963:0000000B [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.2501572+07:00 0HLRDKMIVC962:0000000C [INF] Executing action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.2528090+07:00 0HLRDKMIVC963:0000000B [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.2560003+07:00 0HLRDKMIVC962:0000000C [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.2596283+07:00 0HLRDKMIVC963:0000000B [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:19.2808790+07:00 0HLRDKMIVC962:0000000C [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:19.2889406+07:00 0HLRDKMIVC963:0000000B [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 34.7249ms. (50a9e262)
+2019-11-20T17:46:19.2909216+07:00 0HLRDKMIVC962:0000000C [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:19.2932185+07:00 0HLRDKMIVC963:0000000B [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.2944599+07:00 0HLRDKMIVC962:0000000C [INF] Executed action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 40.264ms. (50a9e262)
+2019-11-20T17:46:19.2972735+07:00 0HLRDKMIVC963:0000000B [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 50.5117ms (afa2e885)
+2019-11-20T17:46:19.2994012+07:00 0HLRDKMIVC962:0000000C [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Pronunciation.PronunciationForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.3022503+07:00 0HLRDKMIVC963:0000000B [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.3052527+07:00 0HLRDKMIVC962:0000000C [INF] Executed action "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" in 55.9695ms (afa2e885)
+2019-11-20T17:46:19.3063258+07:00 0HLRDKMIVC963:0000000B [INF] Request finished in 81.6706ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.3087186+07:00 0HLRDKMIVC962:0000000C [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.3110800+07:00 0HLRDKMIVC962:0000000C [INF] Request finished in 85.7671ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.5554417+07:00 0HLRDKMIVC962:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Vocabularies?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:19.5576016+07:00 0HLRDKMIVC963:0000000C [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:19.5592743+07:00 0HLRDKMIVC962:0000000D [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.5622670+07:00 0HLRDKMIVC963:0000000C [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.5666312+07:00 0HLRDKMIVC962:0000000D [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.5678205+07:00 0HLRDKMIVC963:0000000C [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.5706865+07:00 0HLRDKMIVC962:0000000D [INF] Route matched with "{action = \"GetAllVocabularies\", controller = \"Vocabularies\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllVocabularies(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.VocabulariesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.5731897+07:00 0HLRDKMIVC963:0000000C [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.5744652+07:00 0HLRDKMIVC962:0000000D [INF] Executing action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.5775167+07:00 0HLRDKMIVC963:0000000C [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.5832825+07:00 0HLRDKMIVC962:0000000D [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.5883415+07:00 0HLRDKMIVC963:0000000C [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.5893826+07:00 0HLRDKMIVC962:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:19.5947349+07:00 0HLRDKMIVC962:0000000D [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:19.5978522+07:00 0HLRDKMIVC963:0000000C [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:19.5999151+07:00 0HLRDKMIVC962:0000000D [INF] Executed action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.5281ms. (50a9e262)
+2019-11-20T17:46:19.6036608+07:00 0HLRDKMIVC962:0000000D [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Vocabulary.VocabularyForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.6062354+07:00 0HLRDKMIVC963:0000000C [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 24.8786ms. (50a9e262)
+2019-11-20T17:46:19.6085011+07:00 0HLRDKMIVC962:0000000D [INF] Executed action "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" in 33.1803ms (afa2e885)
+2019-11-20T17:46:19.6110207+07:00 0HLRDKMIVC963:0000000C [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.6131490+07:00 0HLRDKMIVC962:0000000D [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.6264757+07:00 0HLRDKMIVC963:0000000C [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 38.0234ms (afa2e885)
+2019-11-20T17:46:19.6280210+07:00 0HLRDKMIVC962:0000000D [INF] Request finished in 62.8853ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.6301432+07:00 0HLRDKMIVC963:0000000C [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.6587402+07:00 0HLRDKMIVC963:0000000C [INF] Request finished in 79.2174ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.8936368+07:00 0HLRDKMIVC963:0000000D [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:19.8936442+07:00 0HLRDKMIVC962:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:19.9000146+07:00 0HLRDKMIVC962:0000000E [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.9020879+07:00 0HLRDKMIVC963:0000000D [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:19.9041305+07:00 0HLRDKMIVC962:0000000E [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.9071658+07:00 0HLRDKMIVC963:0000000D [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:19.9087499+07:00 0HLRDKMIVC962:0000000E [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.9124953+07:00 0HLRDKMIVC963:0000000D [INF] Route matched with "{action = \"GetAllLessons\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessons(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:19.9153955+07:00 0HLRDKMIVC962:0000000E [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:19.9196272+07:00 0HLRDKMIVC963:0000000D [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.9222505+07:00 0HLRDKMIVC962:0000000E [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:19.9250157+07:00 0HLRDKMIVC963:0000000D [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.9263146+07:00 0HLRDKMIVC962:0000000E [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:19.9309369+07:00 0HLRDKMIVC962:0000000E [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:19.9325125+07:00 0HLRDKMIVC963:0000000D [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:19.9344049+07:00 0HLRDKMIVC962:0000000E [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 10.15ms. (50a9e262)
+2019-11-20T17:46:19.9378458+07:00 0HLRDKMIVC962:0000000E [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.9421411+07:00 0HLRDKMIVC962:0000000E [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 28.4138ms (afa2e885)
+2019-11-20T17:46:19.9443231+07:00 0HLRDKMIVC963:0000000D [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:19.9455397+07:00 0HLRDKMIVC962:0000000E [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.9519798+07:00 0HLRDKMIVC963:0000000D [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 25.9363ms. (50a9e262)
+2019-11-20T17:46:19.9545725+07:00 0HLRDKMIVC962:0000000E [INF] Request finished in 57.7203ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:19.9562403+07:00 0HLRDKMIVC963:0000000D [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:19.9603895+07:00 0HLRDKMIVC963:0000000D [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" in 43.8671ms (afa2e885)
+2019-11-20T17:46:19.9636226+07:00 0HLRDKMIVC963:0000000D [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:19.9728846+07:00 0HLRDKMIVC963:0000000D [INF] Request finished in 75.8507ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:21.5373103+07:00 0HLRDKMIVC962:0000000F [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:21.5397784+07:00 0HLRDKMIVC962:0000000F [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:21.5440532+07:00 0HLRDKMIVC962:0000000F [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:21.5491072+07:00 0HLRDKMIVC962:0000000F [INF] Route matched with "{action = \"GetAllCourses\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourses(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:21.5514871+07:00 0HLRDKMIVC962:0000000F [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:21.5537380+07:00 0HLRDKMIVC962:0000000F [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:21.5560946+07:00 0HLRDKMIVC962:0000000F [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:21.5587613+07:00 0HLRDKMIVC962:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:21.5614344+07:00 0HLRDKMIVC962:0000000F [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:21.5649360+07:00 0HLRDKMIVC962:0000000F [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 7.9985ms. (50a9e262)
+2019-11-20T17:46:21.5671155+07:00 0HLRDKMIVC962:0000000F [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:21.5699258+07:00 0HLRDKMIVC962:0000000F [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)" in 18.0044ms (afa2e885)
+2019-11-20T17:46:21.5718908+07:00 0HLRDKMIVC962:0000000F [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourses (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:21.5766382+07:00 0HLRDKMIVC962:0000000F [INF] Request finished in 38.25ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.0604144+07:00 0HLRDKMIVC963:0000000E [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:22.0685030+07:00 0HLRDKMIVC962:00000010 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:22.0702485+07:00 0HLRDKMIVC963:0000000E [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.0727387+07:00 0HLRDKMIVC962:00000010 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.0764927+07:00 0HLRDKMIVC963:0000000E [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.0794507+07:00 0HLRDKMIVC962:00000010 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.0829092+07:00 0HLRDKMIVC963:0000000E [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.0859460+07:00 0HLRDKMIVC962:00000010 [INF] Route matched with "{action = \"GetAllLessons\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessons(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.0876239+07:00 0HLRDKMIVC963:0000000E [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:22.0907968+07:00 0HLRDKMIVC962:00000010 [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.0920286+07:00 0HLRDKMIVC963:0000000E [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.0960430+07:00 0HLRDKMIVC962:00000010 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.0982682+07:00 0HLRDKMIVC963:0000000E [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.1032244+07:00 0HLRDKMIVC963:0000000E [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:22.1045615+07:00 0HLRDKMIVC962:00000010 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:22.1071323+07:00 0HLRDKMIVC963:0000000E [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.565ms. (50a9e262)
+2019-11-20T17:46:22.1106318+07:00 0HLRDKMIVC963:0000000E [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.1149491+07:00 0HLRDKMIVC963:0000000E [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 27.8505ms (afa2e885)
+2019-11-20T17:46:22.1173421+07:00 0HLRDKMIVC962:00000010 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:22.1187433+07:00 0HLRDKMIVC963:0000000E [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.1252161+07:00 0HLRDKMIVC963:0000000E [INF] Request finished in 65.3809ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.1265617+07:00 0HLRDKMIVC962:00000010 [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 28.346ms. (50a9e262)
+2019-11-20T17:46:22.1296306+07:00 0HLRDKMIVC962:00000010 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.1362145+07:00 0HLRDKMIVC962:00000010 [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)" in 44.0196ms (afa2e885)
+2019-11-20T17:46:22.1398800+07:00 0HLRDKMIVC962:00000010 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessons (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.1440643+07:00 0HLRDKMIVC962:00000010 [INF] Request finished in 84.5588ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.5015347+07:00 0HLRDKMIVC963:0000000F [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:22.5015761+07:00 0HLRDKMIVC962:00000011 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Vocabularies?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:22.5063364+07:00 0HLRDKMIVC962:00000011 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.5087049+07:00 0HLRDKMIVC963:0000000F [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.5101513+07:00 0HLRDKMIVC962:00000011 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.5160191+07:00 0HLRDKMIVC963:0000000F [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.5189109+07:00 0HLRDKMIVC962:00000011 [INF] Route matched with "{action = \"GetAllVocabularies\", controller = \"Vocabularies\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllVocabularies(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.VocabulariesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.5201734+07:00 0HLRDKMIVC963:0000000F [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.5226271+07:00 0HLRDKMIVC962:00000011 [INF] Executing action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.5250203+07:00 0HLRDKMIVC963:0000000F [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.5301975+07:00 0HLRDKMIVC962:00000011 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.5313528+07:00 0HLRDKMIVC963:0000000F [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.5359858+07:00 0HLRDKMIVC962:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:22.5372350+07:00 0HLRDKMIVC963:0000000F [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:22.5416864+07:00 0HLRDKMIVC963:0000000F [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 12.6795ms. (50a9e262)
+2019-11-20T17:46:22.5428442+07:00 0HLRDKMIVC962:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Vocabularies] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:22.5469976+07:00 0HLRDKMIVC963:0000000F [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.5498550+07:00 0HLRDKMIVC962:00000011 [INF] Executed action method "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 20.3417ms. (50a9e262)
+2019-11-20T17:46:22.5525411+07:00 0HLRDKMIVC963:0000000F [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 27.099ms (afa2e885)
+2019-11-20T17:46:22.5538166+07:00 0HLRDKMIVC962:00000011 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Vocabulary.VocabularyForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.5560918+07:00 0HLRDKMIVC963:0000000F [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.5621684+07:00 0HLRDKMIVC962:00000011 [INF] Executed action "LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)" in 37.1295ms (afa2e885)
+2019-11-20T17:46:22.5676409+07:00 0HLRDKMIVC963:0000000F [INF] Request finished in 75.3045ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.5691063+07:00 0HLRDKMIVC962:00000011 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.VocabulariesController.GetAllVocabularies (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.5750558+07:00 0HLRDKMIVC962:00000011 [INF] Request finished in 76.4815ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.8671254+07:00 0HLRDKMIVC963:00000010 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Lessons/GetAllLessonName   (ca22a1cb)
+2019-11-20T17:46:22.8705606+07:00 0HLRDKMIVC962:00000012 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Pronunciations?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:22.8921848+07:00 0HLRDKMIVC963:00000010 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.8947135+07:00 0HLRDKMIVC962:00000012 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:22.8982975+07:00 0HLRDKMIVC963:00000010 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.8998569+07:00 0HLRDKMIVC962:00000012 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:22.9035604+07:00 0HLRDKMIVC963:00000010 [INF] Route matched with "{action = \"GetAllLessonName\", controller = \"Lessons\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllLessonName()" on controller "LearningEnglish.Admin.Controllers.LessonsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.9059148+07:00 0HLRDKMIVC962:00000012 [INF] Route matched with "{action = \"GetAllPronunciations\", controller = \"Pronunciations\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllPronunciations(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.PronunciationsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:22.9071013+07:00 0HLRDKMIVC963:00000010 [INF] Executing action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.9101940+07:00 0HLRDKMIVC962:00000012 [INF] Executing action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:22.9127549+07:00 0HLRDKMIVC963:00000010 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.9139166+07:00 0HLRDKMIVC962:00000012 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:22.9183308+07:00 0HLRDKMIVC962:00000012 [INF] Executed DbCommand ("0"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:22.9208041+07:00 0HLRDKMIVC963:00000010 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[CourseId], [x].[Introduce], [x].[Name], [x].[Tittle], [x].[Type], [x].[Video], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Lessons] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:22.9250790+07:00 0HLRDKMIVC962:00000012 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Audio], [x].[LessonId], [x].[Name], [x].[Phonetic], [x].[Video], [x.Lesson].[Id], [x.Lesson].[CourseId], [x.Lesson].[Introduce], [x.Lesson].[Name], [x.Lesson].[Tittle], [x.Lesson].[Type], [x.Lesson].[Video]
+FROM [Pronunciations] AS [x]
+INNER JOIN [Lessons] AS [x.Lesson] ON [x].[LessonId] = [x.Lesson].[Id]" (0723d8ff)
+2019-11-20T17:46:22.9277884+07:00 0HLRDKMIVC963:00000010 [INF] Executed action method "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.4604ms. (50a9e262)
+2019-11-20T17:46:22.9305489+07:00 0HLRDKMIVC962:00000012 [INF] Executed action method "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 15.0102ms. (50a9e262)
+2019-11-20T17:46:22.9331957+07:00 0HLRDKMIVC963:00000010 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Lesson.LessonNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.9358404+07:00 0HLRDKMIVC962:00000012 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Pronunciation.PronunciationForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:22.9369208+07:00 0HLRDKMIVC963:00000010 [INF] Executed action "LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)" in 29.8264ms (afa2e885)
+2019-11-20T17:46:22.9397277+07:00 0HLRDKMIVC962:00000012 [INF] Executed action "LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)" in 30.0256ms (afa2e885)
+2019-11-20T17:46:22.9419325+07:00 0HLRDKMIVC963:00000010 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.LessonsController.GetAllLessonName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.9431056+07:00 0HLRDKMIVC962:00000012 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.PronunciationsController.GetAllPronunciations (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:22.9491208+07:00 0HLRDKMIVC963:00000010 [INF] Request finished in 78.8659ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:22.9521774+07:00 0HLRDKMIVC962:00000012 [INF] Request finished in 76.9278ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:23.2381288+07:00 0HLRDKMIVC963:00000011 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:23.2392280+07:00 0HLRDKMIVC962:00000013 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Courses/GetAllCourseName   (ca22a1cb)
+2019-11-20T17:46:23.2412333+07:00 0HLRDKMIVC963:00000011 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:23.2473529+07:00 0HLRDKMIVC962:00000013 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:23.2493571+07:00 0HLRDKMIVC963:00000011 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:23.2517745+07:00 0HLRDKMIVC962:00000013 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:23.2540276+07:00 0HLRDKMIVC963:00000011 [INF] Route matched with "{action = \"GetAllQuestions\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestions(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:23.2564569+07:00 0HLRDKMIVC962:00000013 [INF] Route matched with "{action = \"GetAllCourseName\", controller = \"Courses\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllCourseName()" on controller "LearningEnglish.Admin.Controllers.CoursesController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:23.2587059+07:00 0HLRDKMIVC963:00000011 [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:23.2611653+07:00 0HLRDKMIVC962:00000013 [INF] Authorization was successful. (0d575a54)
+2019-11-20T17:46:23.2626700+07:00 0HLRDKMIVC963:00000011 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:23.2647805+07:00 0HLRDKMIVC962:00000013 [INF] Executing action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:23.2684347+07:00 0HLRDKMIVC962:00000013 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:23.2889793+07:00 0HLRDKMIVC963:00000011 [INF] Executed DbCommand ("2"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:23.2928581+07:00 0HLRDKMIVC962:00000013 [INF] Executed DbCommand ("21"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [c].[Id], [c].[Image], [c].[Introduce], [c].[LevelClass], [c].[Name]
+FROM [Courses] AS [c]" (0723d8ff)
+2019-11-20T17:46:23.2941437+07:00 0HLRDKMIVC963:00000011 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:23.2971622+07:00 0HLRDKMIVC962:00000013 [INF] Executed action method "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 29.3075ms. (50a9e262)
+2019-11-20T17:46:23.2994642+07:00 0HLRDKMIVC963:00000011 [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 36.3871ms. (50a9e262)
+2019-11-20T17:46:23.3006820+07:00 0HLRDKMIVC962:00000013 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Course.CourseNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:23.3025902+07:00 0HLRDKMIVC963:00000011 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:23.3045763+07:00 0HLRDKMIVC962:00000013 [INF] Executed action "LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)" in 45.0468ms (afa2e885)
+2019-11-20T17:46:23.3074693+07:00 0HLRDKMIVC963:00000011 [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)" in 49.2928ms (afa2e885)
+2019-11-20T17:46:23.3087880+07:00 0HLRDKMIVC962:00000013 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.CoursesController.GetAllCourseName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:23.3106932+07:00 0HLRDKMIVC963:00000011 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestions (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:23.3157150+07:00 0HLRDKMIVC962:00000013 [INF] Request finished in 74.8548ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:23.3270421+07:00 0HLRDKMIVC963:00000011 [INF] Request finished in 78.3687ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:23.5501638+07:00 0HLRDKMIVC962:00000014 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Questions/GetAllQuestionName   (ca22a1cb)
+2019-11-20T17:46:23.5529925+07:00 0HLRDKMIVC963:00000012 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Answers?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:23.5546039+07:00 0HLRDKMIVC962:00000014 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:23.5579994+07:00 0HLRDKMIVC963:00000012 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:23.5622965+07:00 0HLRDKMIVC962:00000014 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:23.5658563+07:00 0HLRDKMIVC963:00000012 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:23.5680920+07:00 0HLRDKMIVC962:00000014 [INF] Route matched with "{action = \"GetAllQuestionName\", controller = \"Questions\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllQuestionName()" on controller "LearningEnglish.Admin.Controllers.QuestionsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:23.5710837+07:00 0HLRDKMIVC963:00000012 [INF] Route matched with "{action = \"GetAllAnswers\", controller = \"Answers\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllAnswers(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.AnswersController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:23.5727880+07:00 0HLRDKMIVC962:00000014 [INF] Executing action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:23.5957757+07:00 0HLRDKMIVC963:00000012 [INF] Executing action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:23.5997676+07:00 0HLRDKMIVC962:00000014 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:23.6212644+07:00 0HLRDKMIVC963:00000012 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:23.6247211+07:00 0HLRDKMIVC962:00000014 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CourseId], [x].[Name], [x.Course].[Id], [x.Course].[Image], [x.Course].[Introduce], [x.Course].[LevelClass], [x.Course].[Name]
+FROM [Questions] AS [x]
+INNER JOIN [Courses] AS [x.Course] ON [x].[CourseId] = [x.Course].[Id]" (0723d8ff)
+2019-11-20T17:46:23.6258843+07:00 0HLRDKMIVC963:00000012 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:23.6290082+07:00 0HLRDKMIVC962:00000014 [INF] Executed action method "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 52.1903ms. (50a9e262)
+2019-11-20T17:46:23.6322814+07:00 0HLRDKMIVC962:00000014 [INF] Executing ObjectResult, writing value of type '"System.Collections.Generic.List`1[[LearningEnglish.BusinessLogic.Dtos.Question.QuestionNameDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:23.6347277+07:00 0HLRDKMIVC963:00000012 [INF] Executed DbCommand ("3"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [x].[Id], [x].[Content], [x].[CorrectAnswer], [x].[Name], [x].[QuestionId], [x.Question].[Id], [x.Question].[Content], [x.Question].[CourseId], [x.Question].[Name]
+FROM [Answers] AS [x]
+INNER JOIN [Questions] AS [x.Question] ON [x].[QuestionId] = [x.Question].[Id]" (0723d8ff)
+2019-11-20T17:46:23.6380213+07:00 0HLRDKMIVC962:00000014 [INF] Executed action "LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)" in 65.1043ms (afa2e885)
+2019-11-20T17:46:23.6401714+07:00 0HLRDKMIVC963:00000012 [INF] Executed action method "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 40.0477ms. (50a9e262)
+2019-11-20T17:46:23.6412605+07:00 0HLRDKMIVC962:00000014 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.QuestionsController.GetAllQuestionName (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:23.6445210+07:00 0HLRDKMIVC963:00000012 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Answer.AnswerForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:23.6459725+07:00 0HLRDKMIVC962:00000014 [INF] Request finished in 97.227ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:23.6479366+07:00 0HLRDKMIVC963:00000012 [INF] Executed action "LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)" in 73.54ms (afa2e885)
+2019-11-20T17:46:23.6524689+07:00 0HLRDKMIVC963:00000012 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AnswersController.GetAllAnswers (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:23.6575464+07:00 0HLRDKMIVC963:00000012 [INF] Request finished in 105.3136ms 200 application/json; charset=utf-8 (791a596a)
+2019-11-20T17:46:24.9791893+07:00 0HLRDKMIVC962:00000015 [INF] Request starting HTTP/1.1 GET http://localhost:44327/api/Achievements?keyword=&page=1&pageSize=10   (ca22a1cb)
+2019-11-20T17:46:24.9815135+07:00 0HLRDKMIVC962:00000015 [INF] Successfully validated the token. (60169667)
+2019-11-20T17:46:24.9846892+07:00 0HLRDKMIVC962:00000015 [INF] Executing endpoint '"LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)"' (500cc934)
+2019-11-20T17:46:24.9880421+07:00 0HLRDKMIVC962:00000015 [INF] Route matched with "{action = \"GetAllAchievements\", controller = \"Achievements\", page = \"\"}". Executing controller action with signature "Microsoft.AspNetCore.Mvc.IActionResult GetAllAchievements(System.String, Int32, Int32)" on controller "LearningEnglish.Admin.Controllers.AchievementsController" ("LearningEnglish.Admin"). (122b2fdf)
+2019-11-20T17:46:24.9903355+07:00 0HLRDKMIVC962:00000015 [INF] Executing action method "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)" - Validation state: Valid (dad538d7)
+2019-11-20T17:46:24.9949206+07:00 0HLRDKMIVC962:00000015 [INF] Entity Framework Core "2.2.6-servicing-10079" initialized '"DataContext"' using provider '"Microsoft.EntityFrameworkCore.SqlServer"' with options: "MigrationsAssembly=LearningEnglish.DataAccess " (9958f5bb)
+2019-11-20T17:46:24.9983773+07:00 0HLRDKMIVC962:00000015 [INF] Executed DbCommand ("1"ms) [Parameters=[""], CommandType='Text', CommandTimeout='30']"
+""SELECT [ach].[Id], [ach].[Point], [ach].[TestDate], [user].[UserName], [course].[Name] AS [CourseName]
+FROM [AspNetUsers] AS [user]
+INNER JOIN [UserCourses] AS [userCourse] ON [user].[Id] = [userCourse].[UserId]
+INNER JOIN [Courses] AS [course] ON [userCourse].[CourseId] = [course].[Id]
+INNER JOIN [Achievements] AS [ach] ON [course].[Id] = [ach].[CourseId]
+WHERE [ach].[UserId] = [user].[Id]
+ORDER BY [user].[Id]" (0723d8ff)
+2019-11-20T17:46:25.0008504+07:00 0HLRDKMIVC962:00000015 [INF] Executed action method "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)", returned result "Microsoft.AspNetCore.Mvc.OkObjectResult" in 8.532ms. (50a9e262)
+2019-11-20T17:46:25.0029486+07:00 0HLRDKMIVC962:00000015 [INF] Executing ObjectResult, writing value of type '"LearningEnglish.BusinessLogic.Core.PaginationSet`1[[LearningEnglish.BusinessLogic.Dtos.Achievement.AchievementForListDto, LearningEnglish.BusinessLogic, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]"'. (8a1b66c8)
+2019-11-20T17:46:25.0056289+07:00 0HLRDKMIVC962:00000015 [INF] Executed action "LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)" in 15.1377ms (afa2e885)
+2019-11-20T17:46:25.0077625+07:00 0HLRDKMIVC962:00000015 [INF] Executed endpoint '"LearningEnglish.Admin.Controllers.AchievementsController.GetAllAchievements (LearningEnglish.Admin)"' (99874f2b)
+2019-11-20T17:46:25.0119606+07:00 0HLRDKMIVC962:00000015 [INF] Request finished in 35.8938ms 200 application/json; charset=utf-8 (791a596a)

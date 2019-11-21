@@ -1,0 +1,119 @@
+﻿@model PronunciationForDetailViewModel
+@{
+    // ViewData["Title"] = "GetPronunciationByLessonId";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="elements-area mt-50 section-padding-100-0">
+    <div class="container">
+        <div class="row">
+
+            <!-- ========== Buttons ========== -->
+            <div class="col-12">
+                <div class="elements-title mb-50">
+                    <span>Pronunciation: @Model.Name</span>
+                    <h2>Audio</h2>
+                </div>
+                <div class="single-blog-post mb-50  wow fadeInUp" data-wow-delay="300ms">
+                    <div class="blog-post-thumb   wow fadeInUp" data-wow-delay="300ms">
+                        <div class="popular-course-content ">
+                            <div class="  mx-auto wow fadeInUp" data-wow-delay="300ms">
+                                <div class=" d-flex align-items-center flex-wrap ">
+
+
+                                    <audio controls class="embed-responsive-item col-12">
+                                        <source src="@Model.Audio" type="audio/mpeg">
+                                    </audio>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="elements-area mt-50">
+    <div class="container">
+        <div class="row">
+
+            <!-- ========== Buttons ========== -->
+            <div class="col-12">
+                <div class="elements-title mb-50">
+                    <span>Pronunciation: @Model.Name</span>
+                    <h2>Phonetic</h2>
+                </div>
+                <div class="single-blog-post mb-50  wow fadeInUp" data-wow-delay="300ms">
+                    <div class="blog-post-thumb   wow fadeInUp" data-wow-delay="300ms">
+                        <div class="popular-course-content ">
+                            <div class="  mx-auto text-center wow fadeInUp" data-wow-delay="300ms">
+                                <div class=" d-flex align-items-center text-center flex-wrap ">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                                src="@Model.Phonetic" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="elements-area mt-50 ">
+    <div class="container">
+        <div class="row">
+
+            <!-- ========== Buttons ========== -->
+            <div class="col-12">
+                <div class="elements-title mb-50">
+                    <span>Phát âm: @Model.Name</span>
+                    <h2>Video</h2>
+                </div>
+                <div class="single-blog-post mb-50  wow fadeInUp" data-wow-delay="300ms">
+                    <div class="blog-post-thumb   wow fadeInUp" data-wow-delay="300ms">
+                        <div class="popular-course-content ">
+                            <div class="  mx-auto text-center wow fadeInUp" data-wow-delay="300ms">
+                                <div class=" d-flex align-items-center text-center flex-wrap ">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                                src="@Model.Video" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="elements-area  ">
+    <div class="container">
+        <div class="row">
+
+            <!-- ========== Buttons ========== -->
+            <div class="col-12">
+                <div class="elements-title mb-50">
+                    <button type="button" class="btn btn-outline-secondary" onclick="quay_lai_trang_truoc()"> Back</button>
+                    <script>
+                        function quay_lai_trang_truoc() {
+                            history.back();
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

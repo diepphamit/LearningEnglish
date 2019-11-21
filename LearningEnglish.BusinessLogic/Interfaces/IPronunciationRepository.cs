@@ -23,5 +23,10 @@ namespace LearningEnglish.BusinessLogic.Interfaces
         Task<Lesson> GetAllLessonsName();
 
         #endregion
+
+        #region ViewModel
+        Task<List<Pronunciation>> GetPronunciationsByLessonId(int LessonId);
+        Task<Pronunciation> GetPronunciationById(int Id);
+        #endregion
     }
 }

@@ -33,7 +33,7 @@ namespace LearningEnglish.Web.Controllers
         public async Task<IActionResult> GetCoursesByLevelClass(int id)
         {
             List<CourseForListViewModel> courses = await _courseRepository.GetCoursesByLevelClass(id);
-            
+            ViewBag.LevelClass = id;
             return View(courses);
         }
 

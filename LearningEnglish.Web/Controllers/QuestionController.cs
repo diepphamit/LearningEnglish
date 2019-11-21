@@ -32,7 +32,9 @@ namespace LearningEnglish.Web.Controllers
             if (ModelState.IsValid)
             {
                 var s = await _questionRepository.GetPoint(questionId, listAnswer, courseId, userId);
-                return Content("<h1>So diem cua ban la" + s +"</h1>");
+                ViewBag.Point = s;
+                ViewBag.CourseId = courseId;
+                return View();
             }
             return Content("<h1>Loi</h1>");
         }

@@ -1,17 +1,15 @@
 ﻿@model LessonForDetailViewModel;
 @{
-
+    //  ViewData["Title"] = "GetLessonById";
     Layout = "~/Views/Shared/_Layout.cshtml";
-
-    
 }
 <div class="top-popular-courses-area section-padding-100-70">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                    <span>@Model.CourseName</span>
-                    <h3>@Model.Name</h3>
+                    <h3>@Model.CourseName</h3>
+                    <h4>@Model.Name</h4>
                 </div>
             </div>
         </div>
@@ -22,10 +20,19 @@
         </div>
         <div class="row">
             <div class="col-12">
-                <div class="section-heading text-center mx-auto wow fadeInUp" data-wow-delay="300ms">
-                    <div class="embed-responsive embed-responsive-16by9">
-                        <iframe class="embed-responsive-item"
-                                src="@Model.Video" allowfullscreen></iframe>
+                <div class="single-blog-post mb-50  wow fadeInUp" data-wow-delay="300ms">
+                    <div class="blog-post-thumb   wow fadeInUp" data-wow-delay="300ms">
+                        <div class="popular-course-content ">
+                            <div class="  mx-auto text-center wow fadeInUp" data-wow-delay="300ms">
+                                <div class=" d-flex align-items-center text-center flex-wrap ">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item"
+                                                src="@Model.Video" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>

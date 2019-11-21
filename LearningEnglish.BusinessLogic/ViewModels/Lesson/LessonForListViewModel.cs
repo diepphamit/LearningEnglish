@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LearningEnglish.BusinessLogic.ViewModels.Pronunciation;
+using LearningEnglish.BusinessLogic.ViewModels.Vocabulary;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -19,7 +21,9 @@ namespace LearningEnglish.BusinessLogic.ViewModels.Lesson
         public string Introduce { get; set; }
 
         public string Title { get; set; }
+        public List<PronunciationForListViewModel> Pronunciations { get; set; }
 
+        public List<VocabularyForListViewModel> Vocabularies { get; set; }
 
     }
 }

@@ -15,7 +15,7 @@
         </div>
     </div>
 </div>
-<h5>You can choose one or more answers for each question.</h5>
+<h5>Bạn có thể chọn một hoặc nhiều câu trả lời trên một câu hỏi</h5>
 <form action="/question/test/@ID" method="post" id="asddsa">
     @foreach (var question in Model)
     {
@@ -51,7 +51,7 @@
         x = window.localStorage.getItem("user");
         if (x == null) {
             window.location.href='/lesson/@ID';
-            alert("You have to login or register to test this coure!");
+            alert("Bạn phải đăng nhập hoặc đăng kí để thi");
         }
         else {
             Id = JSON.parse(x).Id;

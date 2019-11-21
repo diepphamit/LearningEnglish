@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "TestResult";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<h5>Chúc mùng bạn được @ViewBag.Point </h5>
+<br />
+<br />
+<br />
+<br />
+<center>
+    <div class="box-footer">
+        <a href="/lesson/@ViewBag.CourseId"><button class="btn btn-default">Học tiếp</button></a>
+        <a href="/question/test/@ViewBag.CourseId"><button type="submit" class="btn btn-success ">Thi lại</button></a>
+    </div>
+</center>

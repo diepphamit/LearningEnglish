@@ -23,5 +23,10 @@ namespace LearningEnglish.BusinessLogic.Interfaces
         IEnumerable<Lesson> GetAllLessonsName();
 
         #endregion
+
+        #region ViewModel
+        Task<List<Vocabulary>> GetVocabulariesByLessonId(int LessonId);
+        Task<Vocabulary> GetVocabularyById(int Id);
+        #endregion
     }
 }

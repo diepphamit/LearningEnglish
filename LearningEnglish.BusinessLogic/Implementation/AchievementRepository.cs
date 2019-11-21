@@ -72,7 +72,7 @@ namespace LearningEnglish.BusinessLogic.Implementation
                      select new AchievementForReturnViewModel
                      {
                          Id = ach.Id,
-                         Point = ach.Point,
+                         Point = (float) Math.Round(ach.Point,2),
                          TestDate = ach.TestDate,
                          CourseName = course.Name
                      }

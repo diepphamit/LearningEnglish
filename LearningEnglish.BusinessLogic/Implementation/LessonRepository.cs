@@ -111,6 +111,8 @@ namespace LearningEnglish.BusinessLogic.Implementation
         public async Task<List<Lesson>> GetLessonsByCourseId(int CourseId)
         {
             var result = await (from x in _context.Lessons.Include(x => x.Course)
+                                .Include(x => x.Vocabularies)
+                                .Include(x => x.Pronunciations)
                                 where (x.CourseId == CourseId)
                                 select x).ToListAsync();
 

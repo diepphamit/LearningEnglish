@@ -12,8 +12,10 @@ using LearningEnglish.BusinessLogic.ViewModels.Achievement;
 using LearningEnglish.BusinessLogic.ViewModels.Answer;
 using LearningEnglish.BusinessLogic.ViewModels.Course;
 using LearningEnglish.BusinessLogic.ViewModels.Lesson;
+using LearningEnglish.BusinessLogic.ViewModels.Pronunciation;
 using LearningEnglish.BusinessLogic.ViewModels.Question;
 using LearningEnglish.BusinessLogic.ViewModels.User;
+using LearningEnglish.BusinessLogic.ViewModels.Vocabulary;
 using LearningEnglish.DataAccess.Entities;
 
 namespace LearningEnglish.BusinessLogic.AutoMapper
@@ -86,6 +88,12 @@ namespace LearningEnglish.BusinessLogic.AutoMapper
             CreateMap<Question, QuestionForReturnViewModel>();
 
             CreateMap<Achievement, AchievementForReturnViewModel>().ForMember(x => x.CourseName, y => { y.MapFrom(z => z.Course.Name); });
+            CreateMap<Vocabulary, VocabularyForListViewModel>();
+            CreateMap<Vocabulary, VocabularyForDetailViewModel>().ForMember(x => x.LessonName, y => { y.MapFrom(z => z.Lesson.Name); });
+
+            CreateMap<Pronunciation, PronunciationForListViewModel>();
+            CreateMap<Pronunciation, PronunciationForDetailViewModel>().ForMember(x => x.LessonName, y => { y.MapFrom(z => z.Lesson.Name); });
+
             #endregion
         }
     }

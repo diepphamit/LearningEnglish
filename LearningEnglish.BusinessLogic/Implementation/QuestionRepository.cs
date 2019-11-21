@@ -147,9 +147,9 @@ namespace LearningEnglish.BusinessLogic.Implementation
             {
                 throw ex;
             }
-            return points;
-            
-           
+            return Math.Round(points, 2);
+
+
         }
 
         public async Task<Question> GetQuestionByIdAsync(int id)
