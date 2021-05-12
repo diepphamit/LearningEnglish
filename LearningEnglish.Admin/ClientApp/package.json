@@ -22,7 +22,7 @@
     "@angular/router": "~8.2.9",
     "@auth0/angular-jwt": "^3.0.0",
     "bootstrap": "^3.4",
-    "chart.js": "^1",
+    "chart.js": "^2",
     "fastclick": "^1.0.6",
     "font-awesome": "^4.7",
     "ionicons": "^3",
